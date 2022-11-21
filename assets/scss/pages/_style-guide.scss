@@ -84,7 +84,19 @@ $filter-z:99;
             top: 10px;
             line-height: 1;
             color: $secondary;
-            font-size: size(24);
+            font-size: 18px;
+            @include min(992) {
+                font-size: size(24);
+            }
         }
+    }
+}
+
+.p-main {
+    @include lineHeight(20, 30);
+    font-size: 17px;
+    color: #485459;
+    @include min(992) {
+        font-size: size(20);
     }
 }
