@@ -29,3 +29,119 @@
     height: 100%;
     object-fit: cover;
   }
+
+
+
+  .banner-wrapper{
+    width: 100%;
+    position: relative;
+    .banner-inner{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .swiper{
+        width: 100%;
+    }
+    .swiper-pagination-bullet{
+      width: 8px;
+      height: 8px;
+      background-color: #fff;
+      border-radius: 50%;
+      opacity: 1;
+      margin: 0px 12.5px !important;
+      transition: .3s all ease-in-out;
+      &.swiper-pagination-bullet-active{
+        background-color: #D4A53E !important;
+      }
+    }
+  }
+
+  .banner-container{
+    width: 100%;
+    position: relative;
+
+
+
+
+    .banner-image{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        .banner-image-container{
+            width: 100%;
+            position: relative;
+            padding-bottom: calc((730/ 1500) * 100%);
+            @media (max-width: 576px) {
+              padding-bottom: calc((8/ 5) * 100%);
+            }
+            img{
+                position: absolute;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+    .banner-text-container{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        .banner-text-inner{
+          width: 100%;
+          display: flex;
+          position: relative;
+          flex-direction: column;
+          max-width: 765px;
+          margin-bottom: 15%;
+        }
+        .ttl1{
+          font-size: 18px;
+          line-height: 1.5;
+          color: #fff;
+          text-decoration: none;
+          font-weight: 300;
+          width: 100%;
+          text-align: left;
+          @media (max-width: 1199px) {
+            font-size: 16px;
+          }
+          @media (max-width: 767px) {
+            font-size: 14px;
+          }
+        }
+        .ttl2{
+          font-size: 65px;
+          line-height: 1.5;
+          color: #fff;
+          text-decoration: none;
+          font-weight: 400;
+          width: 100%;
+          text-align: left;
+          font-family: 'GT Super Display';
+          @media (max-width: 1199px) {
+            font-size: 50px;
+          }
+          @media (max-width: 767px) {
+            font-size: 40px;
+          }
+          @media (max-width: 576px) {
+            font-size: 32px;
+            line-height: 1.4;
+          }
+        }
+        
+    }
+   
+  }
