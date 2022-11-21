@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-             <div class="col-xl-3 col-lg-3 col-md-3 ">
+             <div class="col-xl-3 col-lg-4 col-md-4 ">
                      <h3 class="title">OUR SERVICE</h3>
                      <ul class="list-star">
                          <li>
@@ -21,7 +21,7 @@
                      </ul>
              </div>
 
-             <div class="col-xl-3 col-lg-3 col-md-3 ">
+             <div class="col-xl-3 col-lg-4 col-md-4 ">
                 <h3 class="title">QUICK LINKS</h3>
                 <ul>
                     <li>
@@ -42,14 +42,14 @@
                 </ul>
         </div>
 
-        <div class="col-xl-3 col-lg-3 col-md-3 ">
+        <div class="col-xl-3 col-lg-4 col-md-4">
             <h3 class="title">CONTACT</h3>
-             <p>Level 12, Rolex Tower,Sheikh Zayed 
+             <p class="address">Level 12, Rolex Tower,Sheikh Zayed 
                 Road,Near Financial Centre Metro 
                 Station, Kochi</p>
              <p><a href="mailto:info@theskinchemistry.com">info@theskinchemistry.com</a></p>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-3 ">
+        <div class="col-xl-3 col-lg-4 col-md-4 ">
              <button class="btn btn-light">Book Appointment</button>
              <p>P.<a href="tel:+91 0234 567 89"> +91 0234 567 89</a></p>
              <div class="social">

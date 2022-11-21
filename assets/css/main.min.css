@@ -11451,10 +11451,21 @@ body.show-menu .mob-btn span + span + span {
   background: #053C57;
   padding: 100px 0 45px;
 }
+@media (max-width: 576px) {
+  .footer {
+    padding: 20px 0 40px;
+  }
+}
 .footer .title {
   font-size: 1.625rem;
   color: #D9B746;
   margin-bottom: 35px;
+}
+@media (max-width: 576px) {
+  .footer .title {
+    margin-bottom: 25px;
+    margin-top: 30px;
+  }
 }
 .footer ul {
   padding: 0;
@@ -11467,6 +11478,11 @@ body.show-menu .mob-btn span + span + span {
   color: #fff;
   text-decoration: none;
   font-size: 1rem;
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+.footer ul li a:hover {
+  color: #D9B746;
 }
 .footer ul.list-star li {
   position: relative;
@@ -11486,10 +11502,22 @@ body.show-menu .mob-btn span + span + span {
 }
 .footer p {
   color: #fff;
+  font-size: 1rem;
 }
 .footer p a {
   color: #fff;
   text-decoration: none;
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+.footer p a:hover {
+  color: #D9B746;
+}
+.footer .btn {
+  margin-bottom: 28px;
+}
+.footer .address {
+  max-width: 267px;
 }
 
 .footer-btm {
@@ -11506,6 +11534,14 @@ body.show-menu .mob-btn span + span + span {
   padding-top: 30px;
   border-top: 1px solid rgba(235, 185, 78, 0.2);
 }
+@media (max-width: 576px) {
+  .footer-btm {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 .footer-btm p {
   font-size: 0.875rem;
   color: #fff;
@@ -11519,6 +11555,7 @@ body.show-menu .mob-btn span + span + span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 30px;
 }
 .social a {
   width: 45px;
