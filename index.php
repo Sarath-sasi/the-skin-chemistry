@@ -103,6 +103,7 @@
                             <li>There are many variations of passages</li>
                             <li>Are many variations of passages</li>
                         </ul>
+                        <a href="" class="btn btn-light">Read More</a>
                     </div>
                 </div>
             </div>
