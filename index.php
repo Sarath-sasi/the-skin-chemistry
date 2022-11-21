@@ -1,5 +1,7 @@
 <?php include('includes/header.php'); ?>
 <main class="home-page">
+<?php include('includes/banner.php'); ?>
+    
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
