@@ -1,0 +1,63 @@
+.faq{
+    padding: 105px 0;
+    @include max(576){
+        padding: 50px 0;
+    }
+}
+.faq-accordion{
+    &.accordion{
+        .accordion-button{
+            background: transparent;
+        }
+        .accordion-item{
+            border: 0;
+            border-bottom: 1px solid rgba(32,45,55,0.1);
+            &:last-child{
+                @include max(576){
+                    border-bottom: 0;
+                }
+            }
+            .accordion-button{
+                box-shadow: none;
+                outline: none;
+                padding-left: 0;
+                padding-bottom: 35px;
+                padding-top: 27px;
+                font-size: size(20);
+                font-weight: 400;
+                color: #363636;
+                background: transparent;
+                padding-right: 0;
+                @include max(576){
+                   padding: 20px 0;
+                   font-size: size(20);
+                   line-height: 1.5;
+                   align-items: flex-start;
+                }
+            }
+            .accordion-body{
+                padding-left: 0;
+                padding-top: 0;
+                @include max(576){
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+    .accordion-button::after{
+        background: url(../images/plus.png)no-repeat;
+        width: 31px;
+        background-size: contain!important;
+        height: 31px;
+        @include max(576){
+            margin-left: 25px;
+            width: 25px;
+            background-size: contain!important;
+            height: 25px;
+        }
+    }
+    .accordion-button:not(.collapsed)::after{
+        background: url(../images/mines.png)no-repeat;
+        transform: scale(-1)
+    }
+}

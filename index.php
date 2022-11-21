@@ -124,6 +124,7 @@
         </div>
     </section>
 </main>
+<?php include('includes/faq.php'); ?>
 <?php include('includes/footer.php'); ?>
 <!-- pagescript here... -->
 <script></script>
