@@ -55,6 +55,7 @@
     border-radius: 0px;
     font-size: 1rem;
     padding: 0.6rem 1rem;
+    min-width: 133px;
     &-light {
         color: #627277;
         &:hover {
@@ -62,5 +63,10 @@
             border-color: $secondary;
             color: $light;
         }
+    }
+    &-secondary {
+        background-color: rgba(220, 172, 76, 0.1);
+        color: #627277;
+        border-color: rgba(220, 172, 76, 0.1);
     }
 }

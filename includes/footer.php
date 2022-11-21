@@ -94,14 +94,11 @@
 
 
 
-         <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+         <script type="text/javascript" src="assets/js/vendors/swiper-bundle.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
 
 
-    <script>
-        var swiper = new Swiper(".mySwiper", {});
-        console.log(swiper);
-    </script>
+  
 
 
 </footer>
