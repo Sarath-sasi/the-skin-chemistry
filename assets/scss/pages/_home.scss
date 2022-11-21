@@ -9,39 +9,189 @@
 }
 
 .sc-skincare-sec {
-    padding: 60px 0;
+    padding: 120px 0 60px;
     @include min(992) {
-        padding: size(80) 0 size(120);
+        padding: size(92) 0 7.5rem;
     }
     ul {
+        margin-bottom: 30px;
         @include min(992) {
             margin-bottom: size(45);
         }
     }
     .img-wrap {
         max-width: 500px;
+        @include min(992) {
+            margin-top: 4%;
+        }
     }
 }
 
 .round-img-wrap {
     position: relative;
     padding-top: 100%;
-    background-color: rgba(238, 238, 238, 0.171);
+    margin-bottom: 50px;
+    @include min(992) {
+        margin-bottom: 0;
+    }
+    .shape {
+        position: absolute;
+        &-one {
+            width: 100%;
+            left: 0;
+            top: 0;
+            height: 100%;
+            object-fit: contain;
+            object-position: center;
+        }
+        &-two {
+            width: 19%;
+            left: 67%;
+            top: -2%;
+        }
+        &-three {
+            width: 19%;
+            left: 19%;
+            top: 73%;
+        }
+        &-four {
+            width: 10%;
+            left: -3%;
+            top: 12%;
+            z-index: 11;
+            @include min(768) {
+                left: -10%;
+            }
+        }
+        &-five {
+            width: 10%;
+            left: 88%;
+            z-index: 11;
+            top: 87%;
+            @include min(768) {
+                left: 91%;
+                top: 107%;
+            }
+        }
+        &-six {
+            width: 10%;
+            left: 81%;
+            z-index: 11;
+            top: 26%;
+        }
+    }
     .pill {
         position: absolute;
         border-radius: 10rem;
-        border: 10px solid #fff;
+        border: 6px solid #fff;
+        overflow: hidden;
+        z-index: 10;
+        @include min(992) {
+            border-width: size(10);
+        }
+        img {
+            position: absolute;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            transform: scale(1.2);
+            top: 0;
+        }
         &-one {
-            width: 62%;
-            padding-top: 96%;
-            top: -26%;
-            left: -9%;
+            left: 1%;
+            width: 50%;
+            padding-top: 84%;
+            top: -10%;
+            @include min(768) {
+                left: -2%;
+            }
+            @include min(992) {
+                width: 65%;
+                padding-top: 100%;
+                top: -37%;
+                left: -5%;
+            }
         }
         &-two {
-            width: 62%;
-            padding-top: 96%;
-            top: 40%;
-            left: -9%;
+            width: 44%;
+            padding-top: 66%;
+            left: 54%;
+            top: 30%;
+            @include min(768) {
+                left: 52%;
+            }
+            @include min(992) {
+                width: 55%;
+                padding-top: 79%;
+                left: 43%;
+                top: 59%;
+            }
+        }
+    }
+}
+
+.sc-antiaging-sec {
+    padding: 60px 0;
+    @include min(992) {
+        padding: size(160) 0 size(175);
+    }
+    ul {
+        margin-bottom: 30px;
+        @include min(992) {
+            margin-bottom: size(45);
+        }
+    }
+    .content-wrap {
+        color: #627277;
+    }
+    .shape-wrap {
+        max-width: 430px;
+        margin-bottom: 40px;
+        @include min(992) {
+            max-width: 596px;
+            margin-left: auto;
+            margin-bottom: 0;
+        }
+    }
+    .img-wrap {
+        position: relative;
+        padding-top: 100%;
+        border-radius: 50%;
+        border: 1px solid #dbac4c;
+        .shape {
+            position: absolute;
+            width: 40px;
+            @include min(992) {
+                width: size(56);
+            }
+            &-one {
+                bottom: 10%;
+                left: 11%;
+            }
+            &-two {
+                top: 9%;
+                right: 12%;
+                transform: rotate(-90deg);
+            }
+        }
+        .img {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            top: 0;
+            padding: 28px;
+            @include min(992) {
+                padding: size(36);
+            }
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 50%;
+            }
         }
     }
 }
