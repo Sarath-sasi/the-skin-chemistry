@@ -105,8 +105,12 @@
                             <div class="shape shape-one">
                                 <img src="./assets/images/shape-circle-lg.svg" class="w-100" alt="">
                             </div>
-                            <div class="shape shape-two"></div>
-                            <div class="shape shape-three"></div>
+                            <div class="shape shape-two">
+                                <img src="./assets/images/shape-rect-stripe.png" class="w-100" alt="">
+                            </div>
+                            <div class="shape shape-three">
+                                <img src="./assets/images/shape-rect-stripe.png" class="w-100" alt="">
+                            </div>
                             <div class="shape shape-four"></div>
                             <div class="shape shape-five"></div>
                             <div class="shape shape-six"></div>

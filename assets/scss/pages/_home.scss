@@ -36,8 +36,14 @@
             object-fit: contain;
             object-position: center;
         }
-        &-two {}
-        &-three {}
+        &-two {
+            width: 19%;
+            left: 64%;
+            top: 24%;
+        }
+        &-three {
+            width: 19%;
+        }
         &-four {}
         &-five {}
         &-six {}
