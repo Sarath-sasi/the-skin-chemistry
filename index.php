@@ -1,5 +1,7 @@
 <?php include('includes/header.php'); ?>
 <main class="home-page">
+<?php include('includes/banner.php'); ?>
+    
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -122,6 +124,7 @@
         </div>
     </section>
 </main>
+<?php include('includes/faq.php'); ?>
 <?php include('includes/footer.php'); ?>
 <!-- pagescript here... -->
 <script></script>

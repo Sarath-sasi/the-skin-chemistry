@@ -11447,6 +11447,79 @@ body.show-menu .mob-btn span + span + span {
   left: -9%;
 }
 
+.faq {
+  padding: 105px 0;
+}
+@media (max-width: 576px) {
+  .faq {
+    padding: 50px 0;
+  }
+}
+
+.faq-accordion.accordion .accordion-button {
+  background: transparent;
+}
+.faq-accordion.accordion .accordion-item {
+  border: 0;
+  border-bottom: 1px solid rgba(32, 45, 55, 0.1);
+}
+@media (max-width: 576px) {
+  .faq-accordion.accordion .accordion-item:last-child {
+    border-bottom: 0;
+  }
+}
+.faq-accordion.accordion .accordion-item .accordion-button {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+  padding-left: 0;
+  padding-bottom: 35px;
+  padding-top: 27px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #363636;
+  background: transparent;
+  padding-right: 0;
+}
+@media (max-width: 576px) {
+  .faq-accordion.accordion .accordion-item .accordion-button {
+    padding: 20px 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+.faq-accordion.accordion .accordion-item .accordion-body {
+  padding-left: 0;
+  padding-top: 0;
+}
+@media (max-width: 576px) {
+  .faq-accordion.accordion .accordion-item .accordion-body {
+    padding-right: 0;
+  }
+}
+.faq-accordion .accordion-button::after {
+  background: url(../images/plus.png) no-repeat;
+  width: 31px;
+  background-size: contain !important;
+  height: 31px;
+}
+@media (max-width: 576px) {
+  .faq-accordion .accordion-button::after {
+    margin-left: 25px;
+    width: 25px;
+    background-size: contain !important;
+    height: 25px;
+  }
+}
+.faq-accordion .accordion-button:not(.collapsed)::after {
+  background: url(../images/mines.png) no-repeat;
+  -webkit-transform: scale(-1);
+          transform: scale(-1);
+}
+
 .footer {
   background: #053C57;
   padding: 100px 0 45px;
@@ -11606,4 +11679,33 @@ body.show-menu .mob-btn span + span + span {
   -webkit-transform: translate(0);
           transform: translate(0);
   opacity: 1;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
