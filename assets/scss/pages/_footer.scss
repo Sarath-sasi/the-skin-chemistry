@@ -10,6 +10,7 @@
         padding: 0;
         li{
             list-style: none;
+            margin-bottom: 10px;
             a{
                 color: #fff;
                 text-decoration: none;
@@ -18,10 +19,63 @@
         }
         &.list-star{
            li{
+            position: relative;
+            padding-left: size(23);
+            &::before{
+                content: "*";
+                position: absolute;
+                left: 0;
+                top: 8px;
+                line-height: 1;
+                color: $secondary;
+                font-size: size(22);
+            }
             a{
                 font-size: size(20);
             }
            }
+        }
+    }
+    p{
+        color: #fff;
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
+.footer-btm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(235,185,78,0.2);
+    p{
+        font-size: size(14);
+        color: #fff;
+        margin: 0;
+    }
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    a{
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(237,248,248,0.2);
+        margin-right: 10px;
+        transition: 0.2s all ease-in-out;
+        &:hover{
+            background: $secondary;
+        }
+        &:last-child{
+            margin-right: 0;
         }
     }
 }

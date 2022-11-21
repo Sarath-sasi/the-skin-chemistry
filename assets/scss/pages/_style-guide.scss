@@ -24,8 +24,7 @@ $ttl-lg: 3.2rem !default;
 // Font Family
 $font-family: 'Open Sans',
 sans-serif;
-$ff-secondary:'GTSuperDisplay-Light',
-sans-serif;
+$ff-secondary:'GT Super Display';
 $d-ico: 'deafult-icons' !default;
 //button
 $font-light:300;
@@ -60,5 +59,30 @@ $filter-z:99;
     font-size: 55px;
     @include min(992) {
         font-size: size(55);
+    }
+}
+
+.list-style-star {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    li {
+        @include lineHeight(18, 40);
+        position: relative;
+        font-size: 14px;
+        padding-left: 25px;
+        @include min(992) {
+            font-size: 1rem;
+            padding-left: size(30);
+        }
+        &::before {
+            content: '*';
+            position: absolute;
+            left: 0;
+            top: 10px;
+            line-height: 1;
+            color: $secondary;
+            font-size: size(24);
+        }
     }
 }

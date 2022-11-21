@@ -3,7 +3,8 @@ $primary: #053C57;
 $secondary: #D9B746;
 $danger: #ff4136;
 $success: #186D23;
-$theme-colors: ("primary": $primary, "secondary": $secondary, "danger": $danger, "success":$success);
+$light:#FFFFFF;
+$theme-colors: ("primary": $primary, "secondary": $secondary, "danger": $danger, "success":$success, "light": $light);
 //breakpoints
 $grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1600px, );
 //adjust the container sizes here
