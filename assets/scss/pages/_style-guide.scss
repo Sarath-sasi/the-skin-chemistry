@@ -91,3 +91,12 @@ $filter-z:99;
         }
     }
 }
+
+.p-main {
+    @include lineHeight(20, 30);
+    font-size: 17px;
+    color: #485459;
+    @include min(992) {
+        font-size: size(20);
+    }
+}
