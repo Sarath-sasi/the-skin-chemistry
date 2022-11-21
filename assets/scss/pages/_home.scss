@@ -13,4 +13,35 @@
     @include min(992) {
         padding: size(80) 0 size(120);
     }
+    ul {
+        @include min(992) {
+            margin-bottom: size(45);
+        }
+    }
+    .img-wrap {
+        max-width: 500px;
+    }
+}
+
+.round-img-wrap {
+    position: relative;
+    padding-top: 100%;
+    background-color: rgba(238, 238, 238, 0.171);
+    .pill {
+        position: absolute;
+        border-radius: 10rem;
+        border: 10px solid #fff;
+        &-one {
+            width: 62%;
+            padding-top: 96%;
+            top: -26%;
+            left: -9%;
+        }
+        &-two {
+            width: 62%;
+            padding-top: 96%;
+            top: 40%;
+            left: -9%;
+        }
+    }
 }
