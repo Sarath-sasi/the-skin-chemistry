@@ -1,12 +1,11 @@
-
 // Custom-color
-$dark-bg : #20222E !default;
-$dark-gray : #323241 !default;
-$light-bg : #EDF1F7 !default;
+$dark-bg: #20222E !default;
+$dark-gray: #323241 !default;
+$light-bg: #EDF1F7 !default;
 $text-color: #1D1D1D !default;
 $title-color: #1D1D1D !default;
 $hover :$primary;
-$border-color : #E6E6E6 !default;
+$border-color: #E6E6E6 !default;
 $text-alt: #282828 !default;
 $text-off: #281107 !default;
 $white: #fff !default;
@@ -23,7 +22,9 @@ $ttl-sm: 2.2rem !default;
 $ttl-md: 2.3rem !default;
 $ttl-lg: 3.2rem !default;
 // Font Family
-$font-family: 'Oxygen',
+$font-family: 'Open Sans',
+sans-serif;
+$ff-secondary:'GTSuperDisplay-Light',
 sans-serif;
 $d-ico: 'deafult-icons' !default;
 //button
@@ -32,26 +33,32 @@ $font-regular:400;
 $font-medium:500;
 $font-semibold:600;
 $font-bold:700;
-$font-weight-title : $font-semibold;
+$font-weight-title: $font-semibold;
 // Spacing
 $gutter-1: 30px !default; // 30px
 $spacing: 50px !default; // 50px.
 // zindex
 $header-z:999;
 $filter-z:99;
-
-
 .default {
-  padding: 0 !important;
-  margin: 0 !important;
-  list-style: none !important;
-
-  li {
-    list-style-type: none;
-
-    &:before,
-    &:after {
-      display: none;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+    li {
+        list-style-type: none;
+        &:before,
+        &:after {
+            display: none;
+        }
     }
-  }
+}
+
+.head {
+    @include lineHeight(55, 60);
+    font-family: $ff-secondary;
+    font-weight: 300;
+    font-size: 55px;
+    @include min(992) {
+        font-size: size(55);
+    }
 }

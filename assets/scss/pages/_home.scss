@@ -5,6 +5,12 @@
 
 //aspect ratio image example
 .abc {
-    @include aspectRatio(500, 500)
-    //height, width
+    @include aspectRatio(500, 500) //height, width
+}
+
+.sc-skincare-sec {
+    padding: 60px 0;
+    @include min(992) {
+        padding: size(80) 0 size(120);
+    }
 }

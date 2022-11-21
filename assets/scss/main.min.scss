@@ -1,43 +1,25 @@
 // deafult Color
-$primary: #0074d9;
-$secondary: #ff4136;
+$primary: #053C57;
+$secondary: #D9B746;
 $danger: #ff4136;
-
-$theme-colors: ("primary": $primary,
-    "secondary": $secondary,
-    "danger": $danger,);
-
-
+$success: #186D23;
+$theme-colors: ("primary": $primary, "secondary": $secondary, "danger": $danger, "success":$success);
 //breakpoints
-$grid-breakpoints: (xs: 0,
-    sm: 576px,
-    md: 768px,
-    lg: 992px,
-    xl: 1200px,
-    xxl: 1600px,);
-
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1600px, );
 //adjust the container sizes here
-$container-max-widths: (sm: 540px,
-    md: 720px,
-    lg: 960px,
-    xl: 1140px,
-    xxl: 1400px);
-
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1128px, xxl: 1400px);
 // bootstrap
 @import 'bootstrap/bootstrap';
-
 // Helpers
 @import 'mixins/mixins';
 @import 'pages/style-guide';
 @import 'base/reset';
-
 // Components
 @import 'components/headings';
 // @import 'components/font-kit';
 @import 'components/buttons';
 @import 'components/navigation';
 // @import 'components/plugins';
-
 // Pages
 @import 'pages/header';
 @import 'pages/home';
