@@ -84,7 +84,10 @@ $filter-z:99;
             top: 10px;
             line-height: 1;
             color: $secondary;
-            font-size: size(24);
+            font-size: 18px;
+            @include min(992) {
+                font-size: size(24);
+            }
         }
     }
 }
