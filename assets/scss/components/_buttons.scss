@@ -1,0 +1,59 @@
+#back-to-top {
+  background-color: lighten($primary, 10%);
+  bottom: 0;
+  color: $white;
+  display: inline-block;
+  height: 36px;
+  opacity: 0;
+  overflow: hidden;
+  position: fixed;
+  right: 15px;
+  text-align: center;
+  transform: translateY(20px);
+  transition: 0.5s all ease;
+  width: 36px;
+  z-index: 99;
+
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  &:before,
+  &:after {
+    border: solid $white;
+    border-width: 2px 0 0 2px;
+    bottom: 8px;
+    content: '';
+    display: inline-block;
+    height: 14px;
+    left: 10px;
+    position: absolute;
+    transform: rotate(45deg);
+    transition: 0.1s all ease;
+    width: 14px;
+  }
+
+  &:after {
+    bottom: -20px;
+  }
+
+  &:hover {
+    background-color: $secondary;
+    text-decoration: none;
+
+    &:before {
+      border-color: $white;
+      bottom: 30px;
+    }
+
+    &:after {
+      border-color: $white;
+      bottom: 8px;
+    }
+  }
+
+  @include max(1199) {
+    display: none;
+  }
+}
