@@ -200,6 +200,7 @@
         </div>
     </section>
 </main>
+<?php include('includes/happy-clients.php'); ?>
 <?php include('includes/faq.php'); ?>
 <?php include('includes/footer.php'); ?>
 <!-- pagescript here... -->

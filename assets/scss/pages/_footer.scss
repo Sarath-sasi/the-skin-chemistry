@@ -81,6 +81,13 @@
         font-size: size(14);
         color: #fff;
         margin: 0;
+        a{
+            margin-left: 5px;
+        }
+        &.color-yellow{
+            color: $secondary;
+            letter-spacing: 4p
+        }
     }
 }
 

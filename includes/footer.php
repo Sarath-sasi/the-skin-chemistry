@@ -80,7 +80,7 @@
         </div>
         <div class="footer-btm">
                <p>Copyright © 2022 The Skin Chemistry. All Rights Reserved.</p>
-               <p>Designed By:</p>
+               <p class="color-yellow">Designed By: <a href="#"> <img src="assets/images/inter-smart.png" /></a></p>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
