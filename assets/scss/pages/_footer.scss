@@ -1,10 +1,18 @@
 .footer{
     background: $primary;
     padding: 100px 0 45px;
+    @include max(576){
+        padding: 20px 0 40px;
+    }
     .title{
         font-size: size(26);
         color: $secondary;
         margin-bottom: 35px;
+        @include max(576){
+            margin-bottom: 25px;
+            margin-top: 30px;
+            
+        }
     }
     ul{
         padding: 0;
@@ -15,6 +23,10 @@
                 color: #fff;
                 text-decoration: none;
                 font-size: size(16);
+                transition: 0.2s all ease-in-out;
+                &:hover{
+                    color: $secondary;
+                }
             }
         }
         &.list-star{
@@ -38,10 +50,21 @@
     }
     p{
         color: #fff;
+        font-size: size(16);
         a{
             color: #fff;
             text-decoration: none;
+            transition: 0.2s all ease-in-out;
+            &:hover{
+                color: $secondary;
+            }
         }
+    }
+    .btn{
+        margin-bottom: 28px;
+    }
+    .address{
+        max-width: 267px;
     }
 }
 .footer-btm{
@@ -51,6 +74,9 @@
     margin-top: 40px;
     padding-top: 30px;
     border-top: 1px solid rgba(235,185,78,0.2);
+    @include max(576){
+        flex-direction: column;
+    }
     p{
         font-size: size(14);
         color: #fff;
@@ -61,6 +87,7 @@
 .social{
     display: flex;
     align-items: center;
+    margin-top: 30px;
     a{
         width: 45px;
         height: 45px;
