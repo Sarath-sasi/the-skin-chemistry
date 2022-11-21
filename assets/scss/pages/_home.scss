@@ -56,15 +56,22 @@
         }
         &-four {
             width: 10%;
+            left: -3%;
             top: 12%;
             z-index: 11;
-            left: -10%;
+            @include min(768) {
+                left: -10%;
+            }
         }
         &-five {
             width: 10%;
-            left: 91%;
+            left: 88%;
             z-index: 11;
-            top: 107%;
+            top: 87%;
+            @include min(768) {
+                left: 91%;
+                top: 107%;
+            }
         }
         &-six {
             width: 10%;
@@ -76,9 +83,12 @@
     .pill {
         position: absolute;
         border-radius: 10rem;
-        border: 10px solid #fff;
+        border: 6px solid #fff;
         overflow: hidden;
         z-index: 10;
+        @include min(992) {
+            border-width: size(10);
+        }
         img {
             position: absolute;
             left: 0;
@@ -135,11 +145,36 @@
     .content-wrap {
         color: #627277;
     }
+    .shape-wrap {
+        max-width: 430px;
+        margin-bottom: 40px;
+        @include min(992) {
+            max-width: 596px;
+            margin-left: auto;
+            margin-bottom: 0;
+        }
+    }
     .img-wrap {
         position: relative;
         padding-top: 100%;
         border-radius: 50%;
         border: 1px solid #dbac4c;
+        .shape {
+            position: absolute;
+            width: 40px;
+            @include min(992) {
+                width: size(56);
+            }
+            &-one {
+                bottom: 10%;
+                left: 11%;
+            }
+            &-two {
+                top: 9%;
+                right: 12%;
+                transform: rotate(-90deg);
+            }
+        }
         .img {
             position: absolute;
             left: 0;
@@ -147,7 +182,10 @@
             height: 100%;
             border-radius: 50%;
             top: 0;
-            padding: 36px;
+            padding: 28px;
+            @include min(992) {
+                padding: size(36);
+            }
             img {
                 height: 100%;
                 width: 100%;

@@ -63,4 +63,9 @@
             color: $light;
         }
     }
+    &-secondary {
+        background-color: rgba(220, 172, 76, 0.1);
+        color: #627277;
+        border-color: rgba(220, 172, 76, 0.1);
+    }
 }

@@ -76,9 +76,17 @@
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2">
-                    <div class="img-wrap">
-                        <div class="img">
-                            <img src="./assets/images/haircare-two.jpg" alt="">
+                    <div class="shape-wrap">
+                        <div class="img-wrap">
+                            <div class="shape shape-one">
+                                <img src="./assets/images/shape-half-circle.svg" class="w-100" alt="">
+                            </div>
+                            <div class="shape shape-two">
+                                <img src="./assets/images/shape-half-circle.svg" class="w-100" alt="">
+                            </div>
+                            <div class="img">
+                                <img src="./assets/images/haircare-two.jpg" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
