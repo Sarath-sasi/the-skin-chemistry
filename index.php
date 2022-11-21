@@ -93,14 +93,23 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="img-wrap">
-
                         <div class="round-img-wrap">
                             <div class="pill pill-one">
-
+                                <img src="./assets/images/haircare-one.jpg" alt="">
                             </div>
                             <div class="pill pill-two">
-
+                                <img src="./assets/images/haircare-two.jpg" alt="">
                             </div>
+
+
+                            <div class="shape shape-one">
+                                <img src="./assets/images/shape-circle-lg.svg" class="w-100" alt="">
+                            </div>
+                            <div class="shape shape-two"></div>
+                            <div class="shape shape-three"></div>
+                            <div class="shape shape-four"></div>
+                            <div class="shape shape-five"></div>
+                            <div class="shape shape-six"></div>
                         </div>
                     </div>
                 </div>

@@ -27,10 +27,29 @@
     position: relative;
     padding-top: 100%;
     background-color: rgba(238, 238, 238, 0.171);
+    .shape {
+        position: absolute;
+        &-one {}
+        &-two {}
+        &-three {}
+        &-four {}
+        &-five {}
+        &-six {}
+    }
     .pill {
         position: absolute;
         border-radius: 10rem;
         border: 10px solid #fff;
+        overflow: hidden;
+        img {
+            position: absolute;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            transform: scale(1.2);
+            top: 0;
+        }
         &-one {
             width: 62%;
             padding-top: 96%;
@@ -38,10 +57,10 @@
             left: -9%;
         }
         &-two {
-            width: 62%;
-            padding-top: 96%;
-            top: 40%;
-            left: -9%;
+            width: 51%;
+            padding-top: 76%;
+            left: 46%;
+            top: 60%;
         }
     }
 }
