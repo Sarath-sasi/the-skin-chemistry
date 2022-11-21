@@ -56,7 +56,7 @@ $filter-z:99;
     @include lineHeight(55, 60);
     font-family: $ff-secondary;
     font-weight: 300;
-    font-size: 45px;
+    font-size: 30px;
     margin-bottom: 20px;
     @include min(992) {
         font-size: size(55);

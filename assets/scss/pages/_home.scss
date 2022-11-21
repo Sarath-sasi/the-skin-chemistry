@@ -220,7 +220,7 @@
         padding: size(180) 0 size(100);
     }
     .head-wrap {
-        margin-bottom: 70px;
+        margin-bottom: 35px;
         @include min(992) {
             margin-bottom: size(100);
         }
@@ -243,6 +243,11 @@
         }
         @include min(1600) {
             max-width: 500px;
+        }
+        @include max(576) {
+            max-width: 300px;
+            margin-right: auto;
+            margin-left: auto;
         }
     }
     .doctor-wrap {

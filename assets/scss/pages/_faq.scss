@@ -1,23 +1,34 @@
-.faq{
+.faq {
     padding: 105px 0;
-    @include max(576){
+    @include max(576) {
         padding: 50px 0;
     }
+    .head {
+        width: 100%;
+        max-width: 972.29px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
-.faq-accordion{
-    &.accordion{
-        .accordion-button{
+
+.faq-accordion {
+    width: 100%;
+    max-width: 972.29px;
+    margin-left: auto;
+    margin-right: auto;
+    &.accordion {
+        .accordion-button {
             background: transparent;
         }
-        .accordion-item{
+        .accordion-item {
             border: 0;
-            border-bottom: 1px solid rgba(32,45,55,0.1);
-            &:last-child{
-                @include max(576){
+            border-bottom: 1px solid rgba(32, 45, 55, 0.1);
+            &:last-child {
+                @include max(576) {
                     border-bottom: 0;
                 }
             }
-            .accordion-button{
+            .accordion-button {
                 box-shadow: none;
                 outline: none;
                 padding-left: 0;
@@ -28,35 +39,38 @@
                 color: #363636;
                 background: transparent;
                 padding-right: 0;
-                @include max(576){
-                   padding: 20px 0;
-                   font-size: size(20);
-                   line-height: 1.5;
-                   align-items: flex-start;
+                @include max(576) {
+                    padding: 20px 0;
+                    font-size: size(18);
+                    line-height: 1.5;
+                    align-items: flex-start;
                 }
             }
-            .accordion-body{
+            .accordion-body {
                 padding-left: 0;
                 padding-top: 0;
-                @include max(576){
+                @include max(576) {
                     padding-right: 0;
+                }
+                p {
+                    opacity: .7;
                 }
             }
         }
     }
-    .accordion-button::after{
+    .accordion-button::after {
         background: url(../images/plus.png)no-repeat;
         width: 31px;
         background-size: contain!important;
         height: 31px;
-        @include max(576){
+        @include max(576) {
             margin-left: 25px;
             width: 25px;
             background-size: contain!important;
             height: 25px;
         }
     }
-    .accordion-button:not(.collapsed)::after{
+    .accordion-button:not(.collapsed)::after {
         background: url(../images/mines.png)no-repeat;
         transform: scale(-1)
     }

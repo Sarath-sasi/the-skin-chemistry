@@ -25,16 +25,15 @@
         padding-bottom: size(120);
         padding-left: 15px;
         @include max(991) {
-          padding-left: 0;
+            padding-left: 0;
+            padding-top: size(50);
+            padding-bottom: size(50)
         }
-
-        > .row > div {
+        >.row>div {
             display: flex;
             justify-content: center;
             flex-direction: column;
         }
-
-
         .text-inner {
             width: 100%;
             display: flex;
@@ -42,15 +41,31 @@
             position: relative;
             // max-width: size(784);
             max-width: 100%;
-            padding-left: calc((100vw - 1255px) / 2);
+            padding-left: calc((100vw - 1400px) / 2);
+            @include max(1599) {
+                padding-left: calc((100vw - 1225px) / 2);
+            }
+            @include max(1199) {
+                padding-left: calc((100vw - 960px) / 2);
+            }
             @include max(991) {
+                padding-left: calc((100vw - 720px) / 2);
+                padding-right: calc((100vw - 720px) / 2);
+            }
+            @include max(767) {
+                padding-left: calc((100vw - 540px) / 2);
+                padding-right: calc((100vw - 540px) / 2);
+            }
+            @include max(576) {
                 padding-right: 15px;
                 padding-left: 15px;
                 max-width: size(784);
                 margin-left: auto;
                 margin-right: auto;
             }
-
+            @include min(992) {
+                padding-right: 30px;
+            }
             h4 {
                 font-size: 18px;
                 line-height: 1.5;
@@ -59,12 +74,12 @@
                 font-weight: 300;
                 width: 100%;
                 text-align: left;
-                margin-bottom: size(15);
+                margin-bottom: size(30);
                 @include max(991) {
                     text-align: center;
                 }
                 @include max(576) {
-                  text-align: left;
+                    text-align: left;
                 }
             }
             h1 {
@@ -80,12 +95,10 @@
                     text-align: center;
                 }
                 @include max(576) {
-                  text-align: left;
+                    text-align: left;
                 }
             }
             p {
-                font-size: size(16);
-                line-height: 1.6;
                 color: #627277;
                 text-decoration: none;
                 font-weight: 300;
@@ -100,11 +113,10 @@
                     margin-right: auto;
                 }
                 @include max(576) {
-                  text-align: left;
-                  margin-left: 0;
-                  margin-right: auto;
+                    text-align: left;
+                    margin-left: 0;
+                    margin-right: auto;
                 }
-
             }
             .btn-chem {
                 width: 100%;
@@ -116,13 +128,11 @@
                     margin-left: auto;
                 }
                 @include max(576) {
-                  margin-left: 0;
-                  margin-right: auto;
+                    margin-left: 0;
+                    margin-right: auto;
                 }
             }
         }
-
-
         .image-wrapper {
             width: size(626);
             position: relative;
@@ -136,14 +146,14 @@
                 margin-top: size(40);
             }
             @include max(576) {
-              width: size(300);
+                width: size(300);
             }
             .image-inner {
                 position: relative;
                 width: 100%;
                 @include max(576) {
-                  position: relative;
-                  right: -5%;
+                    position: relative;
+                    right: -5%;
                 }
                 .image-outer-container {
                     width: 100%;
@@ -157,7 +167,6 @@
                         height: 100%;
                     }
                 }
-
                 .image-line-wrapper {
                     width: 100%;
                     height: 100%;
@@ -191,7 +200,6 @@
                         bottom: 1.4%;
                     }
                 }
-
                 .image-text-wrapper {
                     position: absolute;
                     left: -55px;
@@ -212,7 +220,7 @@
                         margin-bottom: 0;
                         text-align: center;
                         @include max(576) {
-                          font-size: 35px;
+                            font-size: 35px;
                         }
                     }
                     h3 {
@@ -225,11 +233,10 @@
                         text-align: left;
                         text-align: center;
                         @include max(576) {
-                          font-size: 12px;
+                            font-size: 12px;
                         }
                     }
                 }
-
                 .image-main-wrapper {
                     position: absolute;
                     left: 0;
@@ -239,11 +246,11 @@
                     left: 50%;
                     top: 50%;
                     transform: translate(-50%, -50%);
-                    @include max(991){
-                      width: size(300);
+                    @include max(991) {
+                        width: size(300);
                     }
-                    @include max(576){
-                      width: size(190);
+                    @include max(576) {
+                        width: size(190);
                     }
                     &::after {
                         opacity: .5;

@@ -95,3 +95,16 @@ var swiper = new Swiper(".mySwiper", {
       },
 });
 console.log('test');
+
+
+const getHeaderHeight = document.querySelector('.main-header');
+const getMainHeiht = document.querySelector('.main-nav');
+window.addEventListener('resize', () => {
+if (getHeaderHeight && getMainHeiht) {
+    const height = getHeaderHeight.clientHeight;
+ 
+        getMainHeiht.style.top = `${height}px`;
+        getMainHeiht.style.height  = `calc(100% - ${height}px)`;
+    // getMainHeiht.style.cssText = `top: ${height}px; lineHeight: ${height}%`;
+}
+})

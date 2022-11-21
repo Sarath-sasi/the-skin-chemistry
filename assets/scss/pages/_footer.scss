@@ -1,114 +1,120 @@
-.footer{
+.footer {
     background: $primary;
     padding: 100px 0 45px;
-    @include max(576){
+    @include max(576) {
         padding: 20px 0 40px;
     }
-    .title{
+    .title {
         font-size: size(26);
         color: $secondary;
         margin-bottom: 35px;
-        @include max(576){
+        @include max(576) {
             margin-bottom: 25px;
             margin-top: 30px;
-            
         }
     }
-    ul{
+    ul {
         padding: 0;
-        li{
+        li {
             list-style: none;
-            margin-bottom: 10px;
-            a{
+            margin-bottom: 15px;
+            a {
                 color: #fff;
                 text-decoration: none;
                 font-size: size(16);
                 transition: 0.2s all ease-in-out;
-                &:hover{
+                &:hover {
                     color: $secondary;
                 }
             }
         }
-        &.list-star{
-           li{
-            position: relative;
-            padding-left: size(23);
-            &::before{
-                content: "*";
-                position: absolute;
-                left: 0;
-                top: 8px;
-                line-height: 1;
-                color: $secondary;
-                font-size: size(22);
+        &.list-star {
+            li {
+                position: relative;
+                padding-left: size(23);
+                &::before {
+                    content: "*";
+                    position: absolute;
+                    left: 0;
+                    top: 8px;
+                    line-height: 1;
+                    color: $secondary;
+                    font-size: size(22);
+                }
+                a {
+                    font-size: size(20);
+                    @include max(576) {
+                        font-size: 1rem;
+                    }
+                }
             }
-            a{
-                font-size: size(20);
-            }
-           }
         }
     }
-    p{
+    p {
         color: #fff;
         font-size: size(16);
-        a{
+        a {
             color: #fff;
             text-decoration: none;
             transition: 0.2s all ease-in-out;
-            &:hover{
+            &:hover {
                 color: $secondary;
             }
         }
     }
-    .btn{
+    .btn {
         margin-bottom: 28px;
     }
-    .address{
+    .address {
         max-width: 267px;
     }
 }
-.footer-btm{
+
+.footer-btm {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 40px;
     padding-top: 30px;
-    border-top: 1px solid rgba(235,185,78,0.2);
-    @include max(576){
+    border-top: 1px solid rgba(235, 185, 78, 0.2);
+    @include max(576) {
         flex-direction: column;
     }
-    p{
+    p {
         font-size: size(14);
         color: #fff;
         margin: 0;
-        a{
+        @include max(576) {
+            margin-bottom: 15px;
+        }
+        a {
             margin-left: 5px;
         }
-        &.color-yellow{
+        &.color-yellow {
             color: $secondary;
             letter-spacing: 4p
         }
     }
 }
 
-.social{
+.social {
     display: flex;
     align-items: center;
     margin-top: 30px;
-    a{
+    a {
         width: 45px;
         height: 45px;
         border-radius: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 1px solid rgba(237,248,248,0.2);
+        border: 1px solid rgba(237, 248, 248, 0.2);
         margin-right: 10px;
         transition: 0.2s all ease-in-out;
-        &:hover{
+        &:hover {
             background: $secondary;
         }
-        &:last-child{
+        &:last-child {
             margin-right: 0;
         }
     }

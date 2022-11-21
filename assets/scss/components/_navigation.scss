@@ -14,7 +14,7 @@
                     width: 37px;
                     height: 33px;
                     top: 50%;
-                    transform:translateY(-50%);
+                    transform: translateY(-50%);
                     right: -5px;
                     cursor: pointer;
                     transition: all ease 0.5s;
@@ -30,10 +30,8 @@
                     border-right: 6px solid transparent;
                     border-top: 6px solid $primary;
                     position: absolute;
-                    
                     right: 12px;
                     top: 14px;
-
                     z-index: 10;
                 }
                 &:last-child {
@@ -45,12 +43,44 @@
                 }
                 >a {
                     display: block;
-                    padding: 0rem size(25);
+                    padding: 0rem 18.9px;
                     text-decoration: none;
                     position: relative;
-                    color: $text-color;
-                    font-size: size(17);
+                    color: #1D1D1D;
+                    font-size: 17px;
                     line-height: 1;
+                    font-weight: 500;
+                    transition: .3s color ease-in-out;
+                    &:hover {
+                        color: #DBAC4C;
+                    }
+                    @include max(1300) {
+                        font-size: 16px;
+                        padding: 0rem 15px;
+                    }
+                }
+                &.enq {
+                    a {
+                        font-size: 17px;
+                        line-height: 1;
+                        color: #434E52;
+                        text-decoration: none;
+                        width: 200px;
+                        height: 50px;
+                        border: 1px solid #DBAC4C;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        transition: .3s color ease-in-out, .3s background-color ease-in-out;
+                        &:hover {
+                            background-color: #DBAC4C;
+                            color: #000;
+                        }
+                        @include max(1300) {
+                            font-size: 16px;
+                        }
+                    }
                 }
                 &:hover {
                     >a {
@@ -72,14 +102,13 @@
                     li {
                         padding: 12px;
                         position: relative;
-                        line-height:1.5;
-                     
+                        line-height: 1.5;
                         &:hover {
-                            @include transition(all, ease, 0.3s); 
-                            background: #F5FBFD; 
+                            @include transition(all, ease, 0.3s);
+                            background: #F5FBFD;
                         }
                         a {
-                            color: #212529;     
+                            color: #212529;
                         }
                         &:hover {
                             >ul {
@@ -87,9 +116,9 @@
                                 left: 250px;
                                 top: 0;
                             }
-                            >a {                          
+                            >a {
                                 color: black;
-                                text-decoration:none;
+                                text-decoration: none;
                             }
                         }
                         &.submenu {
@@ -141,6 +170,7 @@
         -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
         box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
         background: #fff;
+        align-items: center;
         ul {
             margin: 0;
             padding: 0;
@@ -152,7 +182,6 @@
             li {
                 display: block;
                 position: relative;
-                
                 span {
                     display: none;
                 }
@@ -188,11 +217,9 @@
                         background: black;
                         z-index: 10;
                         transform: rotate(90deg);
-                           
                         -webkit-transition: all ease 0.3s;
                         -moz-transition: all ease 0.3s;
                         transition: all ease 0.3s;
-                        
                     }
                     &:before {
                         content: "";
@@ -201,17 +228,30 @@
                         background: black;
                         z-index: 10;
                         position: relative;
-                        left: 20px; 
-
+                        left: 20px;
                     }
-                    
                 }
-                &.open>i{
+                &.open>i {
                     &:after {
                         transform: rotate(0);
                     }
                 }
-               
+                &.enq {
+                    a {
+                        font-size: 17px;
+                        line-height: 1;
+                        color: #434E52;
+                        text-decoration: none;
+                        width: 100%;
+                        height: 50px;
+                        border: 1px solid #DBAC4C;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        transition: .3s color ease-in-out, .3s background-color ease-in-out;
+                    }
+                }
             }
             ul {
                 margin: 0;
@@ -270,23 +310,20 @@
         flex-direction: column;
         justify-content: center;
         padding: 10px;
-
         span {
             display: block;
             width: 100%;
             height: 2px;
             border-radius: 1px;
             background: gray;
-            transition: all 0.3s cubic-bezier(0,0,0.58,1);
+            transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
         }
-
         .icon-left-1 {
             display: none;
             background: none;
             height: 0;
             width: 0;
         }
-
         span+span {
             margin-top: 5px;
         }
@@ -323,5 +360,12 @@ body {
                 width: 50%;
             }
         }
+    }
+}
+
+.logo {
+    width: auto;
+    @include max(1300) {
+        width: 200px;
     }
 }

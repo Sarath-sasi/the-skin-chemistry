@@ -13,24 +13,30 @@
 </head>
 
 <body>
-    <header class="main-header" data-anim="fadein-top">
-        <div class="container d-flex align-items-center">
-            <div class="logo">
-                <a href="">
-                    <img src="./assets/images/logo.svg" alt="">
-                </a>
-            </div>
-            <div class="header-right ms-auto d-flex align-items-center">
-                <nav class="main-nav">
-                    <ul>
-                        <li><a class="active" href="">Home</a></li>
-                        <li><a href="">About Us</a></li>
-                        <li><a href="">Treatments</a>
-                        <li><a href="">News</a>
-                        <li><a href="">Blog</a>
-                        <li><a href="">Gallery</a>
-                        <li><a href="">Contact us</a>
-                            <!-- <ul>
+    <header class="main-header">
+        <div class="top-heading">
+            <p>
+                The Skin Chemistry Services Skin Care Procedures / Anti aging Procedures / Hair Care / Laser Treatments
+            </p>
+        </div>
+        <div class="main-header-wrapper">
+            <div class="container d-flex align-items-center">
+                <div class="logo">
+                    <a href="">
+                        <img src="./assets/images/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="header-right ms-auto d-flex align-items-center">
+                    <nav class="main-nav">
+                        <ul>
+                            <li><a class="active" href="">Home</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Treatments</a>
+                            <li><a href="">News</a>
+                            <li><a href="">Blog</a>
+                            <li><a href="">Gallery</a>
+                            <li><a href="">Contact us</a>
+                                <!-- <ul>
                                 <li><a href="">Services 1</a>
                                     <ul>
                                         <li><a href="">Services 1</a></li>
@@ -45,16 +51,18 @@
                                 <li><a href="">Services 4</a></li>
                                 <li><a href="">Services 5</a></li>
                             </ul> -->
-                        </li>
-                        <li><a href="">Book Appointment</a></li>
-                    </ul>
-                </nav>
+                            </li>
+                            <li class="enq"><a href="">Book Appointment</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="mob-btn">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
-        <div class="mob-btn">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+
         <div class="overlay"></div>
     </header>
