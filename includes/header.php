@@ -25,8 +25,12 @@
                     <ul>
                         <li><a class="active" href="">Home</a></li>
                         <li><a href="">About Us</a></li>
-                        <li><a href="">Services</a>
-                            <ul>
+                        <li><a href="">Treatments</a>
+                        <li><a href="">News</a>
+                        <li><a href="">Blog</a>
+                        <li><a href="">Gallery</a>
+                        <li><a href="">Contact us</a>
+                            <!-- <ul>
                                 <li><a href="">Services 1</a>
                                     <ul>
                                         <li><a href="">Services 1</a></li>
@@ -40,19 +44,9 @@
                                 <li><a href="">Services 3</a></li>
                                 <li><a href="">Services 4</a></li>
                                 <li><a href="">Services 5</a></li>
-                            </ul>
+                            </ul> -->
                         </li>
-                        <li><a href="">Get an Alert</a>
-                            <ul>
-                                <li><a href="">Services 1</a></li>
-                                <li><a href="">Services 2</a></li>
-                                <li><a href="">Services 3</a></li>
-                                <li><a href="">Services 4</a></li>
-                                <li><a href="">Services 5</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="">FAQ</a></li>
-                        <li><a href="">Sign in/Sign up</a></li>
+                        <li><a href="">Book Appointment</a></li>
                     </ul>
                 </nav>
             </div>

@@ -22,7 +22,7 @@
         width: 100%;
         position: relative;
         padding-top: size(120);
-        padding-bottom: size(70);
+        padding-bottom: size(120);
         padding-left: 15px;
         @include max(991) {
           padding-left: 0;
@@ -40,7 +40,8 @@
             display: flex;
             flex-direction: column;
             position: relative;
-            max-width: size(784);
+            // max-width: size(784);
+            max-width: 100%;
             padding-left: calc((100vw - 1255px) / 2);
             @include max(991) {
                 padding-right: 15px;
