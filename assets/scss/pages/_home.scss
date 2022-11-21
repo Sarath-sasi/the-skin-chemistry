@@ -26,10 +26,16 @@
 .round-img-wrap {
     position: relative;
     padding-top: 100%;
-    background-color: rgba(238, 238, 238, 0.171);
     .shape {
         position: absolute;
-        &-one {}
+        &-one {
+            width: 100%;
+            left: 0;
+            top: 0;
+            height: 100%;
+            object-fit: contain;
+            object-position: center;
+        }
         &-two {}
         &-three {}
         &-four {}
@@ -41,6 +47,7 @@
         border-radius: 10rem;
         border: 10px solid #fff;
         overflow: hidden;
+        z-index: 10;
         img {
             position: absolute;
             left: 0;
