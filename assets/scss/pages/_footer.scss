@@ -1,0 +1,27 @@
+.footer{
+    background: $primary;
+    padding: 100px 0 45px;
+    .title{
+        font-size: size(26);
+        color: $secondary;
+        margin-bottom: 35px;
+    }
+    ul{
+        padding: 0;
+        li{
+            list-style: none;
+            a{
+                color: #fff;
+                text-decoration: none;
+                font-size: size(16);
+            }
+        }
+        &.list-star{
+           li{
+            a{
+                font-size: size(20);
+            }
+           }
+        }
+    }
+}
