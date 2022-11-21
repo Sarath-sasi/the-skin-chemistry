@@ -91,7 +91,19 @@
     <section class="sc-skincare-sec bg-primary">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6"></div>
+                <div class="col-lg-6">
+                    <div class="img-wrap">
+
+                        <div class="round-img-wrap">
+                            <div class="pill pill-one">
+
+                            </div>
+                            <div class="pill pill-two">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-6">
                     <div class="content-wrap text-white">
                         <h2 class="head text-secondary">Skin Care Procedures</h2>
