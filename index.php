@@ -2,7 +2,6 @@
 <main class="home-page">
 <?php include('includes/banner.php'); ?>
 <?php include('includes/skin-chem.php'); ?>
-    
 
     <section class="sc-skincare-sec bg-primary">
         <div class="container">
