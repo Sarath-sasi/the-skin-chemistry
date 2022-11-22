@@ -24,6 +24,8 @@ $container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1255px, xxl: 1400px
 // Pages
 @import 'pages/header';
 @import 'pages/home';
+@import 'pages/doctor-details';
+@import 'pages/aesthetic-unit';
 // @import 'pages/inner-pages';
 @import 'pages/happy-clients';
 @import 'components/banner';
