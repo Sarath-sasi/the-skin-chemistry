@@ -22,6 +22,7 @@
                                         <img src="assets/images/contact/location.png" alt="">
                                     </div>
                                 </div>
+
                                 <div class="address-item-main">
                                     <h6 class="text-primary">Address</h6>
                                     <p>Level 12, Rolex Tower,Sheikh Zayed Road,Near Financial Centre Metro Station, Kochi</p>
