@@ -26,10 +26,8 @@
 
                             <div class="text-inner">
                                 <h1 class="head">Chemical Peel For Skin Whitening</h1>
-                                <p>A Chemical peel also known as chemexfoliation is a procedure in which a specific
-                                    chemical
-                                    soln is applied on the skin which causes it to exfoliate and eventually causing
-                                    microscopic or visible peeling giving way to the generation of fresh skin.</p>
+                                <p>A Chemical peel also known as chemexfoliation is a procedure in which a specific chemical soln is applied on the skin which causes it to exfoliate and eventually causing microscopic or visible peeling giving way to the
+                                    generation of fresh skin.</p>
                             </div>
                         </div>
 
@@ -63,7 +61,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -89,6 +87,84 @@
                 </div>
             </div>
 
+        </div>
+    </section>
+
+
+    <section class="gallery-wrapper-main">
+        <div class="container">
+            <div class="gallery-inner">
+                <div class="gallery-head">
+                    <h3 class="head">Gallery</h3>
+                </div>
+                <div class="gallery-item-wrapper">
+                    <div class="row">
+                        <div class="col-6 col-lg-6">
+                            <a href="./assets/images/gallery/image-l.jpg" class="gallery-wrapper image-l glightbox">
+                                <div class="gallery-image">
+                                    <div class="gallery-container">
+                                        <img src="./assets/images/gallery/image-l.jpg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <a href="./assets/images/gallery/image-l.jpg" class="gallery-wrapper image-s glightbox">
+                                <div class="gallery-image">
+                                    <div class="gallery-container">
+                                        <img src="./assets/images/gallery/image-l.jpg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <a href="./assets/images/gallery/image-l.jpg" class="gallery-wrapper image-s glightbox">
+                                <div class="gallery-image">
+                                    <div class="gallery-container">
+                                        <img src="./assets/images/gallery/image-l.jpg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <a href="./assets/images/gallery/image-l.jpg" class="gallery-wrapper image-s glightbox">
+                                <div class="gallery-image">
+                                    <div class="gallery-container">
+                                        <img src="./assets/images/gallery/image-l.jpg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <a href="./assets/images/gallery/image-l.jpg" class="gallery-wrapper image-s glightbox">
+                                <div class="gallery-image">
+                                    <div class="gallery-container">
+                                        <img src="./assets/images/gallery/image-l.jpg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <a href="./assets/images/gallery/image-l.jpg" class="gallery-wrapper image-s glightbox">
+                                <div class="gallery-image">
+                                    <div class="gallery-container">
+                                        <img src="./assets/images/gallery/image-l.jpg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <a href="./assets/images/gallery/image-l.jpg" class="gallery-wrapper image-s glightbox">
+                                <div class="gallery-image">
+                                    <div class="gallery-container">
+                                        <img src="./assets/images/gallery/image-l.jpg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

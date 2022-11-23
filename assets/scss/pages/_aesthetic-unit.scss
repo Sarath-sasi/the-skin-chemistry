@@ -35,7 +35,6 @@
         flex-direction: column;
         justify-content: flex-end;
         align-items: flex-start;
-
         .banner-text-inner {
             width: 100%;
             display: flex;
@@ -93,11 +92,8 @@
                 font-size: 14px;
             }
         }
-
-
     }
 }
-
 
 .aesthetic-unit {
     width: 100%;
@@ -173,7 +169,6 @@
             }
         }
     }
-
     .info-content-wrapper {
         width: 100%;
         display: flex;
@@ -187,7 +182,6 @@
         }
     }
 }
-
 
 .right-menu-wrapper {
     width: 100%;
@@ -209,19 +203,19 @@
                 font-size: size(30);
             }
         }
-        ul{
+        ul {
             padding: 0;
             margin: 0;
             display: flex;
             flex-direction: column;
             position: relative;
             list-style: none;
-            li{
+            li {
                 list-style: none;
                 padding: 0px;
                 margin: 0px;
                 text-align: left;
-                a{
+                a {
                     display: flex;
                     width: 100%;
                     text-decoration: none;
@@ -233,7 +227,7 @@
                     position: relative;
                     margin-bottom: size(20);
                     padding-bottom: size(20);
-                    &::after{
+                    &::after {
                         width: 100%;
                         position: relative;
                         height: 1px;
@@ -244,27 +238,25 @@
                         bottom: 0;
                         transition: .3s all ease-in-out;
                     }
-                    &.active{
+                    &.active {
                         color: $secondary;
-                        &::after{
+                        &::after {
                             background-color: $secondary;
                         }
                     }
-                    &:hover{
+                    &:hover {
                         color: $secondary;
-                        &::after{
+                        &::after {
                             background-color: $secondary;
                         }
                     }
                 }
             }
         }
-        
     }
 }
 
-
-.shape-inner-wrapper{
+.shape-inner-wrapper {
     width: 100%;
     position: relative;
     left: -15%;
@@ -308,7 +300,6 @@
                 bottom: 10%;
                 left: 11%;
             }
-            
             &-two {
                 top: 9%;
                 right: 12%;
@@ -331,6 +322,88 @@
                 width: 100%;
                 object-fit: cover;
                 border-radius: 50%;
+            }
+        }
+    }
+}
+
+.gallery-wrapper-main {
+    width: 100%;
+    display: flex;
+    margin-bottom: size(150);
+    @include max(991) {
+        margin-bottom: size(100);
+    }
+    @include max(576) {
+        margin-bottom: size(50);
+    }
+    .gallery-inner {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .gallery-head {
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: size(90);
+        &::after {
+            width: 100%;
+            height: 1px;
+            background-color: rgba(212, 164, 62, 0.1);
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            z-index: -1;
+        }
+        .head {
+            text-align: center;
+            width: max-content;
+            background-color: #fff;
+            padding: 0px size(55);
+        }
+    }
+    .gallery-item-wrapper {
+        width: 100%;
+        position: relative;
+        .gallery-wrapper {
+            width: 100%;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            .gallery-image {
+                width: 100%;
+                position: relative;
+                margin-bottom: 15px;
+                margin-top: 15px;
+            }
+            .gallery-container {
+                width: 100%;
+                position: relative;
+                img {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+            &.image-l {
+                .gallery-container {
+                    padding-bottom: calc((334 / 615) * 100%);
+                }
+            }
+            &.image-s {
+                .gallery-container {
+                    padding-bottom: calc((336 / 291.1) * 100%);
+                }
             }
         }
     }

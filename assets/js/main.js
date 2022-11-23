@@ -108,3 +108,5 @@ if (getHeaderHeight && getMainHeiht) {
     // getMainHeiht.style.cssText = `top: ${height}px; lineHeight: ${height}%`;
 }
 })
+
+var lightbox = GLightbox();
