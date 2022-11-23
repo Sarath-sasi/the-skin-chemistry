@@ -1,6 +1,18 @@
 <?php include('includes/header.php'); ?>
 <main class="contact-page">
-    <section class="d-flex justify-content-center align-items-center vh-100">Banner</section>
+<section class="inner-banner">
+    
+    <div class="inner-banner-image">
+         <img src="assets/images/contact-banner.jpg" />
+         <div class="container">
+                <div class="banner-content">
+                    <h2 class="head text-white mb-2">Contact </h2>
+                    <p>There are many variations of passages of Lorem Ipsum available.</p>
+                </div>
+         </div>
+    </div>
+
+</section>
     <section class="sc-antiaging-sec position-relative contact-address-sec">
 
         <div class="shape-main">

@@ -30,13 +30,13 @@
                 <div class="header-right ms-auto d-flex align-items-center">
                     <nav class="main-nav">
                         <ul>
-                            <li><a class="active" href="">Home</a></li>
-                            <li><a href="">About Us</a></li>
+                            <li><a class="active" href="index.php">Home</a></li>
+                            <li><a href="about-us.php">About Us</a></li>
                             <li><a href="">Treatments</a>
-                            <li><a href="">News</a>
-                            <li><a href="">Blog</a>
+                            <li><a href="news.php">News</a>
+                            <li><a href="blog.php">Blog</a>
                             <li><a href="">Gallery</a>
-                            <li><a href="">Contact us</a>
+                            <li><a href="contact.php">Contact us</a>
                                 <!-- <ul>
                                 <li><a href="">Services 1</a>
                                     <ul>
@@ -53,7 +53,7 @@
                                 <li><a href="">Services 5</a></li>
                             </ul> -->
                             </li>
-                            <li class="enq"><a href="">Book Appointment</a></li>
+                            <li class="enq"><a href="book-appoinment.php">Book Appointment</a></li>
                         </ul>
                     </nav>
                 </div>

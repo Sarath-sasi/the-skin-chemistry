@@ -11939,7 +11939,7 @@ body.show-menu .mob-btn span + span + span {
 }
 .inner-banner-image {
   position: relative;
-  padding-top: calc((503/1500) * 100%);
+  padding-top: calc((600/1500) * 100%);
   position: relative;
 }
 .inner-banner-image img {
@@ -11975,7 +11975,7 @@ body.show-menu .mob-btn span + span + span {
   position: absolute;
   left: 0;
   bottom: 150px;
-  max-width: 700px;
+  max-width: 800px;
 }
 @media (max-width: 991px) {
   .inner-banner-image .banner-content {
@@ -12576,6 +12576,153 @@ body.show-menu .mob-btn span + span + span {
   -webkit-box-orient: vertical;
   overflow: hidden;
   margin-bottom: 0;
+}
+
+.form-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (max-width: 576px) {
+  .form-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.form-wrap .leftWrap {
+  max-width: 489px;
+  width: 100%;
+}
+.form-wrap .leftWrap figure {
+  padding-top: calc((748/489) * 100%);
+  position: relative;
+  margin-bottom: 0;
+}
+.form-wrap .leftWrap figure img {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 0;
+}
+@media (max-width: 576px) {
+  .form-wrap .leftWrap figure {
+    padding-top: calc((500/489) * 100%);
+    position: relative;
+  }
+  .form-wrap .leftWrap figure img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    top: 0;
+  }
+}
+.form-wrap .rightWrap {
+  background: #053C57;
+  width: calc(100% - 489px);
+  padding: 70px 50px 100px 100px;
+  position: relative;
+}
+@media (max-width: 1199px) {
+  .form-wrap .rightWrap {
+    padding: 70px 30px 100px 30px;
+  }
+}
+@media (max-width: 576px) {
+  .form-wrap .rightWrap {
+    width: 100%;
+    padding: 40px 30px 100px 30px;
+  }
+}
+.form-wrap .rightWrap .shape-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 450px;
+}
+.form-wrap .rightWrap .form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #fff;
+  padding: 20px 0;
+  font-size: 1rem;
+  color: #fff;
+  background: transparent;
+}
+@media (max-width: 767.98px) {
+  .form-wrap .rightWrap .form-control {
+    font-size: 0.875rem;
+  }
+}
+.form-wrap .rightWrap .form-control:focus, .form-wrap .rightWrap .form-control:focus-visible, .form-wrap .rightWrap .form-control:focus-within {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+.form-wrap .rightWrap .form-control:not(:-moz-placeholder-shown) ~ label {
+  transform: scale(0.75) translateY(-0.8rem) translateX(0.15rem);
+}
+.form-wrap .rightWrap .form-control:not(:-ms-input-placeholder) ~ label {
+  transform: scale(0.75) translateY(-0.8rem) translateX(0.15rem);
+}
+.form-wrap .rightWrap .form-control:focus ~ label, .form-wrap .rightWrap .form-control:not(:placeholder-shown) ~ label {
+  -webkit-transform: scale(0.75) translateY(-0.8rem) translateX(0.15rem);
+          transform: scale(0.75) translateY(-0.8rem) translateX(0.15rem);
+}
+.form-wrap .rightWrap label {
+  padding: 10px 0;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #fff;
+}
+@media (max-width: 767.98px) {
+  .form-wrap .rightWrap label {
+    font-size: 0.875rem;
+  }
+}
+.form-wrap .rightWrap h3, .form-wrap .rightWrap .h3 {
+  font-size: 2.1875rem;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+@media (max-width: 576px) {
+  .form-wrap .rightWrap h3, .form-wrap .rightWrap .h3 {
+    font-size: 1.875rem;
+    line-height: 1.3;
+  }
+}
+.form-wrap .rightWrap p {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.form-wrap .rightWrap .btn-wrap {
+  margin-top: 50px;
+}
+
+.date-time svg {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  pointer-events: none;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+input[type=time]::-webkit-calendar-picker-indicator {
+  opacity: 0;
 }
 
 .doctor-detail-wrapper {
