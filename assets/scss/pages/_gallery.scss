@@ -1,0 +1,14 @@
+.gallery-main-sec{
+    margin-bottom: 0;
+    padding: size(110) 0;
+}
+.gallery-detail-sec{
+    .gallery-wrapper{
+        .image-rounded{
+            .gallery-image{
+                overflow: hidden;
+                border-radius: 10px;
+            }
+        }
+    }
+}

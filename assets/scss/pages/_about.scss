@@ -586,3 +586,30 @@ input[type="date"]::-webkit-calendar-picker-indicator{
 input[type="time"]::-webkit-calendar-picker-indicator{
     opacity: 0;
 }
+.news-detail-sec{
+    .news-list{
+        max-width: 720px;
+        .head {
+            font-size: size(36);
+            margin-bottom: size(20);
+        }
+        .news-list-detail{
+            color: #6C6C6C;
+            font-weight: $font-light;
+            margin-bottom: size(30);
+            .date{
+                margin-right: 10px;
+            }
+            .post{
+                margin-left: 5px;
+            }
+        }
+        .news-detail-img{
+            margin-bottom: size(70);
+            .img-container{
+                @include aspectRatio(420, 720);
+
+            }
+        }
+    }
+}
