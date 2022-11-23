@@ -25,10 +25,13 @@ $container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1255px, xxl: 1400px
 @import 'pages/header';
 @import 'pages/home';
 @import 'pages/about';
+@import 'pages/doctor-details';
+@import 'pages/aesthetic-unit';
 // @import 'pages/inner-pages';
 @import 'pages/happy-clients';
 @import 'components/banner';
 @import 'components/skin-chem';
 @import 'pages/faq';
+@import 'pages/contact';
 @import 'pages/footer';
 @import 'components/animations';
