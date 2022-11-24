@@ -12,7 +12,7 @@
     </div>
 </section>
 
-<section class="gallery-wrapper-main gallery-detail-sec">
+<section class="gallery-wrapper-main gallery-detail-sec mb-0">
     <div class="container">
         <div class="gallery-inner">
             <div class="gallery-item-wrapper">

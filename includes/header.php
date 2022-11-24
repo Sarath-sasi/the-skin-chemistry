@@ -36,7 +36,7 @@
                             <li><a href="">Treatments</a>
                             <li><a href="news.php">News</a>
                             <li><a href="blog.php">Blog</a>
-                            <li><a href="">Gallery</a>
+                            <li><a href="gallery.php">Gallery</a>
                             <li><a href="contact.php">Contact us</a>
                                 <!-- <ul>
                                 <li><a href="">Services 1</a>

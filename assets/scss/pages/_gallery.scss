@@ -1,8 +1,12 @@
 .gallery-main-sec{
     margin-bottom: 0;
     padding: size(110) 0;
+    @include max(576){
+        padding: 50px 0;
+    }
 }
 .gallery-detail-sec{
+    padding: 50px 0;
     .gallery-wrapper{
         .image-rounded{
             .gallery-image{

@@ -589,6 +589,9 @@ input[type="time"]::-webkit-calendar-picker-indicator{
 .news-detail-sec{
     .news-list{
         max-width: 720px;
+        @include max(576){
+            margin-bottom: 50px;
+        }
         .head {
             font-size: size(36);
             margin-bottom: size(20);
@@ -606,6 +609,9 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         }
         .news-detail-img{
             margin-bottom: size(70);
+            @include max(576){
+                margin-bottom: size(30);
+            }
             .img-container{
                 @include aspectRatio(420, 720);
 
