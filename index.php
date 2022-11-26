@@ -3,7 +3,7 @@
 <?php include('includes/banner.php'); ?>
 <?php include('includes/skin-chem.php'); ?>
 
-    <section class="sc-skincare-sec bg-primary">
+    <section class="sc-skincare-sec bg-primary anim">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -57,7 +57,7 @@
         </div>
     </section>
 
-    <section class="sc-antiaging-sec position-relative">
+    <section class="sc-antiaging-sec position-relative anim">
 
         <div class="shape-main">
             <img src="./assets/images/shape-ellipse-secondary.svg" class="w-100" alt="">
@@ -100,7 +100,7 @@
         </div>
     </section>
 
-    <section class="sc-skincare-sec bg-primary">
+    <section class="sc-skincare-sec bg-primary anim">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -154,7 +154,7 @@
         </div>
     </section>
 
-    <section class="sc-doctor-sec">
+    <section class="sc-doctor-sec anim">
         <div class="shape-main">
             <img src="./assets/images/shape-ellipse-secondary.svg" class="w-100" alt="">
         </div>

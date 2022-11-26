@@ -15086,3 +15086,239 @@ input[type=time]::-webkit-calendar-picker-indicator {
           transform: translate(0);
   opacity: 1;
 }
+
+.anim .banner-text-inner .ttl1,
+.anim .banner-text-inner .ttl2 {
+  opacity: 0;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  -webkit-transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+  transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+.anim .banner-text-inner .ttl2 {
+  -webkit-transition-delay: 0.29s;
+          transition-delay: 0.29s;
+}
+.anim .banner-image {
+  opacity: 0;
+  -webkit-transition: 0.5s cubic-bezier(0.38, 0.61, 0, 1.02);
+  transition: 0.5s cubic-bezier(0.38, 0.61, 0, 1.02);
+}
+.anim .image-text-wrapper h4, .anim .image-text-wrapper .h4,
+.anim .image-text-wrapper h3,
+.anim .image-text-wrapper .h3 {
+  opacity: 0;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  -webkit-transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+  transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+}
+.anim .image-text-wrapper h4, .anim .image-text-wrapper .h4 {
+  -webkit-transition-delay: 0.09s;
+          transition-delay: 0.09s;
+}
+.anim .image-text-wrapper h3, .anim .image-text-wrapper .h3 {
+  -webkit-transition-delay: 0.15s;
+          transition-delay: 0.15s;
+}
+.anim .image-main-container img {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+  transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+}
+.anim .head-wrap + .row > div {
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  -webkit-transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+  transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+.anim .head-wrap + .row > div:nth-child(2) {
+  -webkit-transition-delay: 0.22s;
+          transition-delay: 0.22s;
+}
+.anim .head-wrap + .row > div:nth-child(3) {
+  -webkit-transition-delay: 0.24s;
+          transition-delay: 0.24s;
+}
+.anim .head-wrap + .row > div:nth-child(4) {
+  -webkit-transition-delay: 0.26s;
+          transition-delay: 0.26s;
+}
+.anim .head-wrap + .row > div:nth-child(5) {
+  -webkit-transition-delay: 0.28s;
+          transition-delay: 0.28s;
+}
+.anim .accordion-item {
+  opacity: 0;
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+  -webkit-transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+  transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+.anim .accordion-item:nth-child(2) {
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+.anim .accordion-item:nth-child(3) {
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+.anim .accordion-item:nth-child(4) {
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+.anim .accordion-item:nth-child(5) {
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+.anim .shape-one {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+  transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+}
+.anim .shape-six {
+  opacity: 0;
+  -webkit-transform: translate(-70px, 50px);
+          transform: translate(-70px, 50px);
+  -webkit-transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+  transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+}
+.anim .shape-four {
+  opacity: 0;
+  -webkit-transform: translate(70px, 80px);
+          transform: translate(70px, 80px);
+  -webkit-transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+  transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+}
+.anim .shape-three {
+  opacity: 0;
+  -webkit-transform: translate(70px, -80px) rotate(30deg);
+          transform: translate(70px, -80px) rotate(30deg);
+  -webkit-transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+  transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+}
+.anim .shape-two {
+  opacity: 0;
+  -webkit-transform: translate(-70px, 100px) rotate(-30deg);
+          transform: translate(-70px, 100px) rotate(-30deg);
+  -webkit-transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+  transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+}
+.anim .doctor-wrap img {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+  transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+}
+.anim .testimonial-wrap .content-wrap {
+  opacity: 0;
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+  -webkit-transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+  transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+}
+.anim.sc-antiaging-sec .img {
+  overflow: hidden;
+}
+.anim.sc-antiaging-sec .img img {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+  transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+}
+.anim.visible .swiper-slide-active .banner-text-inner .ttl1,
+.anim.visible .swiper-slide-active .banner-text-inner .ttl2 {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+.anim.visible .banner-image {
+  opacity: 1;
+}
+.anim.visible .text-inner h4, .anim.visible .text-inner .h4,
+.anim.visible .text-inner h1,
+.anim.visible .text-inner .h1,
+.anim.visible .text-inner p {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+.anim.visible .image-text-wrapper h4, .anim.visible .image-text-wrapper .h4,
+.anim.visible .image-text-wrapper h3,
+.anim.visible .image-text-wrapper .h3 {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+.anim.visible .image-line-wrapper {
+  -webkit-animation: rotating 9s linear infinite;
+}
+.anim.visible .image-main-container img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.anim.visible .head-wrap h2, .anim.visible .head-wrap .h2,
+.anim.visible .head-wrap p {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+.anim.visible .head-wrap + .row > div {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+.anim.visible .accordion-item {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+.anim.visible .shape-one {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.anim.visible .shape-four,
+.anim.visible .shape-six {
+  opacity: 1;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+.anim.visible .shape-two,
+.anim.visible .shape-three {
+  opacity: 1;
+  -webkit-transform: translate(0px, 0px) rotate(0deg);
+          transform: translate(0px, 0px) rotate(0deg);
+}
+.anim.visible .doctor-wrap img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.anim.visible .testimonial-wrap .content-wrap {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.anim.visible.sc-antiaging-sec .img {
+  overflow: hidden;
+}
+.anim.visible.sc-antiaging-sec .img img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=main.min.css.map */

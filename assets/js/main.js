@@ -110,3 +110,24 @@ if (getHeaderHeight && getMainHeiht) {
 })
 
 var lightbox = GLightbox();
+
+
+
+const getWindowProps = window;
+function startAnimation(params) {
+    const getAnimClass = document.querySelectorAll('.anim');
+    const getHeaderHeight = document.querySelector('.main-header').clientHeight;
+    const offset = 40;
+    getAnimClass.forEach(element => {
+        console.log((element.offsetTop - (getWindowProps.innerHeight   - 5000)));
+        if ((element.offsetTop - (getWindowProps.innerHeight   - 220) < (getWindowProps.pageYOffset)) && (element.offsetTop + element.clientHeight) > (getWindowProps.pageYOffset + getHeaderHeight) ) {
+            element.classList.add('visible');
+          
+        }
+        
+    });
+}
+
+
+window.addEventListener('scroll' , startAnimation);
+window.addEventListener('load' , startAnimation);

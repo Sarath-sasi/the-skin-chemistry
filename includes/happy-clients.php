@@ -1,4 +1,4 @@
-<section class="happy-clients">
+<section class="happy-clients anim">
 <div class="container">
     <div class="head-wrap">
         <h2 class="head text-white text-center mb-2">Our Happy Clients</h2>
@@ -57,7 +57,7 @@
 
 
 <!-- video popup -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog video-popup ">
       <div class="modal-content">
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span class="close"></span></button>
@@ -67,4 +67,4 @@
         
       </div>
     </div>
-  </div> 
+  </div>  -->

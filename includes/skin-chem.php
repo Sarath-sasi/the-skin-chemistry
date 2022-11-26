@@ -1,4 +1,4 @@
-<section class="skim-chem-wrapper">
+<section class="skim-chem-wrapper anim">
     <!-- <div class="container"> -->
         <div class="skin-chem-inner">
             <div class="row">

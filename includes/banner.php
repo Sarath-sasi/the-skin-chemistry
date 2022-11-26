@@ -1,4 +1,4 @@
-<section class="banner-wrapper">
+<section class="banner-wrapper anim">
 
     <div class="banner-inner">
 

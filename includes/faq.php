@@ -1,4 +1,4 @@
-<section class="faq">
+<section class="faq anim">
     <div class="container">
            <h2 class="head text-primary mb-4">FAQ</h2>
            <div class="accordion faq-accordion" id="accordionExample">
