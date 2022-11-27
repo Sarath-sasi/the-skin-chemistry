@@ -88,7 +88,7 @@
                     <div class="shape-wrap">
                         <div class="img-wrap">
                             <div class="shape shape-one">
-                                <img class="rotate-40" src="./assets/images/shape-half-circle.svg" class="w-100" alt="">
+                                <img class="rotate-round" src="./assets/images/shape-half-circle.svg" class="w-100" alt="">
                             </div>
                             <div class="shape shape-two">
                                 <img class="rotate-round" src="./assets/images/shape-half-circle.svg" class="w-100" alt="">
@@ -122,10 +122,10 @@
                                 <img src="./assets/images/shape-circle-lg.svg" class="w-100" alt="">
                             </div>
                             <div class="shape shape-two">
-                                <img src="./assets/images/shape-rect-stripe.png" class="w-100" alt="">
+                                <img  class="rotate-40" src="./assets/images/shape-rect-stripe.png" class="w-100" alt="">
                             </div>
                             <div class="shape shape-three">
-                                <img src="./assets/images/shape-rect-stripe.png" class="w-100" alt="">
+                                <img class="rotate-30" src="./assets/images/shape-rect-stripe.png" class="w-100" alt="">
                             </div>
                             <div class="shape shape-four">
                                 <img src="./assets/images/shape-circle-secondary.svg" class="w-100" alt="">
