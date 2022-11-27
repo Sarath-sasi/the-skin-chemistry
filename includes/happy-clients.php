@@ -1,11 +1,11 @@
 <section class="happy-clients anim">
 <div class="container">
     <div class="head-wrap">
-        <h2 class="head text-white text-center mb-2">Our Happy Clients</h2>
-        <p class="text-center text-white">There are many variations of passages of Lorem Ipsum available, but the </p>
+        <h2 class="head text-white text-center mb-2" data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="0">Our Happy Clients</h2>
+        <p class="text-center text-white" data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="100">There are many variations of passages of Lorem Ipsum available, but the </p>
    </div>
    <div class="row">
-     <div class="col-xl-4 col-md-4 col-lg-4">
+     <div class="col-xl-4 col-md-4 col-lg-4" data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="150">
         <div class="client-card">
            <figure data-bs-toggle="modal" data-bs-target="#exampleModal" >
                  <img src="assets/images/image-1.png" />
@@ -20,7 +20,7 @@
            <p>There are many variations of passages</p>
         </div>
      </div>
-     <div class="col-xl-4 col-md-4 col-lg-4">
+     <div class="col-xl-4 col-md-4 col-lg-4" data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="200">
         <div class="client-card">
            <figure>
                  <img src="assets/images/image-2.png" />
@@ -35,7 +35,7 @@
            <p>There are many variations of passages</p>
         </div>
      </div>
-     <div class="col-xl-4 col-md-4 col-lg-4">
+     <div class="col-xl-4 col-md-4 col-lg-4" data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="250">
         <div class="client-card">
            <figure>
                  <img src="assets/images/image-3.png" />

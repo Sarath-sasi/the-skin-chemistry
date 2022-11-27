@@ -88,10 +88,20 @@ window.addEventListener("load", () => {
 
 
 
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".homeBanner", {
+    speed: 500,
+    effect: 'fade',
+    loop: true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
     pagination: {
         el: ".swiper-pagination",
         clickable: true
+      },
+      autoplay: {
+        delay: 5000,
       },
 });
 console.log('test');
@@ -110,6 +120,7 @@ if (getHeaderHeight && getMainHeiht) {
 })
 
 var lightbox = GLightbox();
+AOS.init();
 
 
 
@@ -131,3 +142,55 @@ function startAnimation(params) {
 
 window.addEventListener('scroll' , startAnimation);
 window.addEventListener('load' , startAnimation);
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    function counter(node, start, end, duration, bind) {
+        console.log(bind);
+     let obj = node,
+      current = start,
+      range = end - start,
+      increment = end > start ? 1 : -1,
+      step = Math.abs(Math.floor(duration / range)),
+      timer = setInterval(() => {
+        let inc = end > 100 ?increment * 2 : increment;
+       current += inc;
+       obj.textContent = `${current}${bind ? bind : ''}`;
+       if (current == end) {
+        clearInterval(timer);
+       }
+      }, step);
+    }
+    // counter("count1", 0, 400, 3000);
+    // counter("count2", 100, 50, 2500);
+    // counter("count3", 0, 40, 3000);
+    let setScrollLock = false;
+
+
+    function scrollCounterAnim() {
+        const GetParentNode = document.querySelector('.counter-wrapper');
+            if (GetParentNode.offsetTop - (getWindowProps.innerHeight   - 220) < (getWindowProps.pageYOffset)) {
+                setScrollLock = true;
+                const getCounters = document.querySelectorAll('.counter-anim');
+                getCounters.forEach(element => {
+                    const getCounterNumber = element?.attributes?.count?.value;
+                    const isBind = element?.attributes?.bind?.value;
+                    const duration = element?.attributes?.duration?.value;
+                    console.log(duration);
+                    // console.log(getCounterNumber);
+                    counter(element, 0, getCounterNumber, duration, isBind);
+                    
+                });
+            }
+    }
+    scrollCounterAnim();
+    window.addEventListener('scroll', () => {
+        if (!setScrollLock) {
+            scrollCounterAnim();
+        }
+
+    })
+   
+   });
+   

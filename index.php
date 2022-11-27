@@ -20,11 +20,11 @@
                             <div class="shape shape-one">
                                 <img src="./assets/images/shape-circle-lg.svg" class="w-100" alt="">
                             </div>
-                            <div class="shape shape-two">
-                                <img src="./assets/images/shape-rect-stripe.png" class="w-100" alt="">
+                            <div class="shape shape-two ">
+                                <img class="rotate-40" src="./assets/images/shape-rect-stripe.png" class="w-100" alt="">
                             </div>
                             <div class="shape shape-three">
-                                <img src="./assets/images/shape-rect-stripe.png" class="w-100" alt="">
+                                <img class="rotate-30" src="./assets/images/shape-rect-stripe.png" class="w-100" alt="">
                             </div>
                             <div class="shape shape-four">
                                 <img src="./assets/images/shape-circle-secondary.svg" class="w-100" alt="">
@@ -40,17 +40,19 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="content-wrap text-white">
-                        <h2 class="head text-secondary">Skin Care Procedures</h2>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use
+                        <h2 class="head text-secondary" data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="0">Skin Care Procedures</h2>
+                        <p data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="100">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use
                             a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat </p>
                         <ul class="list-style-star">
-                            <li>There are many variations of passages</li>
-                            <li>Many variations of passages</li>
-                            <li>Are many variations of passages</li>
-                            <li>There are many variations of passages</li>
-                            <li>Are many variations of passages</li>
+                            <li data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="150">There are many variations of passages</li>
+                            <li data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="200">Many variations of passages</li>
+                            <li data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="250">Are many variations of passages</li>
+                            <li data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="350">There are many variations of passages</li>
+                            <li data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="450">Are many variations of passages</li>
                         </ul>
+                        <span data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="500" class="d-block">
                         <a href="" class="btn btn-light">Read More</a>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -67,27 +69,29 @@
 
                 <div class="col-lg-6 order-2 order-lg-1">
                     <div class="content-wrap">
-                        <h2 class="head text-primary">Anti aging Procedures </h2>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use
+                        <h2 class="head text-primary"  data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="0">Anti aging Procedures </h2>
+                        <p  data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="100">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use
                             a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum </p>
                         <ul class="list-style-star">
-                            <li>Skin Treatments</li>
-                            <li>Laser Treatments</li>
-                            <li>Are many variations of passages</li>
-                            <li>There are many variations of passages</li>
-                            <li>Are many variations of passages</li>
+                            <li data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="150">Skin Treatments</li>
+                            <li data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="200">Laser Treatments</li>
+                            <li data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="250">Are many variations of passages</li>
+                            <li data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="300">There are many variations of passages</li>
+                            <li data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="350">Are many variations of passages</li>
                         </ul>
-                        <a href="" class="btn btn-secondary">Read More</a>
+                        <span data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="400" class="d-block">
+                            <a href="" class="btn btn-secondary">Read More</a>
+                        </span>
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2">
                     <div class="shape-wrap">
                         <div class="img-wrap">
                             <div class="shape shape-one">
-                                <img src="./assets/images/shape-half-circle.svg" class="w-100" alt="">
+                                <img class="rotate-40" src="./assets/images/shape-half-circle.svg" class="w-100" alt="">
                             </div>
                             <div class="shape shape-two">
-                                <img src="./assets/images/shape-half-circle.svg" class="w-100" alt="">
+                                <img class="rotate-round" src="./assets/images/shape-half-circle.svg" class="w-100" alt="">
                             </div>
                             <div class="img">
                                 <img src="./assets/images/cover-face-massage.png" alt="">
@@ -137,17 +141,20 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="content-wrap text-white">
-                        <h2 class="head text-secondary">Hair Care</h2>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use
+                        <h2 class="head text-secondary"  data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="0">Hair Care</h2>
+                        <p data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="100">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use
                             a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat </p>
                         <ul class="list-style-star">
-                            <li>Skin Treatments</li>
-                            <li>Laser Treatments</li>
-                            <li>Are many variations of passages</li>
-                            <li>There are many variations of passages</li>
-                            <li>Are many variations of passages</li>
+                            <li data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="150">Skin Treatments</li>
+                            <li data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="200">Laser Treatments</li>
+                            <li data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="250">Are many variations of passages</li>
+                            <li data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="300">There are many variations of passages</li>
+                            <li data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="350">Are many variations of passages</li>
                         </ul>
+                        <span class="d-block"  data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="400">
                         <a href="" class="btn btn-light">Read More</a>
+                        </span>
+                        
                     </div>
                 </div>
             </div>
@@ -161,8 +168,8 @@
         <div class="container">
 
             <div class="head-wrap text-center">
-                <h2 class="head text-success">Meet our Doctor</h2>
-                <p class="p-main">There are many variations of passages of Lorem Ipsum available, but the </p>
+                <h2 class="head text-success"  data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="50">Meet our Doctor</h2>
+                <p class="p-main"  data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="150">There are many variations of passages of Lorem Ipsum available, but the </p>
             </div>
 
             <div class="testimonial-wrap">
@@ -173,15 +180,15 @@
                             <div class="icon-quote">
                                 <img src="./assets/images/icon-quote.png" class="w-100" alt="">
                             </div>
-                            <p>
+                            <p data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="150">
                                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
                                 you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum you need to
                                 be sure there isn't anything embarrassing
                             </p>
 
                             <div class="author">
-                                <h5 class="text-success">Doctor Name</h5>
-                                <p>There are many variations </p>
+                                <h5 class="text-success" data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="150">Doctor Name</h5>
+                                <p  data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="200">There are many variations </p>
                             </div>
                         </div>
                     </div>

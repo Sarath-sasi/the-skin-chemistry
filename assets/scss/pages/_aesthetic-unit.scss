@@ -141,7 +141,7 @@
             h1 {
                 // font-size: 55px;
                 // line-height: 1.5;
-                color: $success;
+                color: $primary;
                 text-decoration: none;
                 font-weight: 300;
                 width: 100%;
@@ -158,12 +158,11 @@
                 }
             }
             p {
-                color: #627277;
+                color: #747475;
                 text-decoration: none;
                 font-weight: 300;
                 width: 100%;
                 text-align: left;
-                margin-bottom: size(80);
                 @include max(991) {
                     text-align: center;
                     margin-bottom: size(40);

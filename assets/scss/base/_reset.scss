@@ -7,9 +7,9 @@ html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     text-size-adjust: 100%;
-    @include min(1600) {
-        font-size: 18px;
-    }
+    // @include min(1600) {
+    //     font-size: 18px;
+    // }
 }
 
 body {

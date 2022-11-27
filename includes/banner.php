@@ -3,7 +3,7 @@
     <div class="banner-inner">
 
 
-        <div class="swiper mySwiper">
+        <div class="swiper homeBanner">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="banner-container">

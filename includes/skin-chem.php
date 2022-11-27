@@ -4,13 +4,15 @@
             <div class="row">
                 <div class="col-12 col-lg-7">
                     <div class="text-inner">
-                        <h4>WELCOME TO THE SKIN CHEMISTRY</h4>
-                        <h1 class="head">Our Exquisite Centres at 
+                        <h4 data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="0">WELCOME TO THE SKIN CHEMISTRY</h4>
+                        <h1 class="head"  data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="440">Our Exquisite Centres at 
                             Dubai and other major cities</h1>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. 
+                            <p data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="480">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. 
 
                             </p>
-                            <a href="#" class="btn btn-light btn-chem">Read More</a>
+                            <span  data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="520">
+                                <a href="#" class="btn btn-light btn-chem">Read More</a>
+                            </span>
                     </div>
                 </div>
                 <div class="col-12 col-lg-5">

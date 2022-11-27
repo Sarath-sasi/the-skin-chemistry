@@ -1,8 +1,8 @@
 <section class="faq anim">
     <div class="container">
-           <h2 class="head text-primary mb-4">FAQ</h2>
+           <h2 class="head text-primary mb-4"  data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="0">FAQ</h2>
            <div class="accordion faq-accordion" id="accordionExample">
-            <div class="accordion-item">
+            <div class="accordion-item"  data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="50">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     Lorem Ipsum is simply dummy text of the printing and typesetting ?
@@ -14,7 +14,7 @@
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item"  data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="100">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     There are many variations of passages of Lorem Ipsum ?
@@ -26,7 +26,7 @@
                   </div>
               </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item"  data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="150">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     Lorem Ipsum is simply dummy text of the printing and typesetting

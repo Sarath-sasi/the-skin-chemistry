@@ -10784,11 +10784,6 @@ html {
   -moz-text-size-adjust: 100%;
        text-size-adjust: 100%;
 }
-@media (min-width: 1600px) {
-  html {
-    font-size: 18px;
-  }
-}
 
 body {
   padding-top: 117px;
@@ -13366,7 +13361,7 @@ input[type=time]::-webkit-calendar-picker-indicator {
   }
 }
 .aesthetic-unit .content-wrapper .text-inner h1, .aesthetic-unit .content-wrapper .text-inner .h1 {
-  color: #186D23;
+  color: #053C57;
   text-decoration: none;
   font-weight: 300;
   width: 100%;
@@ -13389,12 +13384,11 @@ input[type=time]::-webkit-calendar-picker-indicator {
   }
 }
 .aesthetic-unit .content-wrapper .text-inner p {
-  color: #627277;
+  color: #747475;
   text-decoration: none;
   font-weight: 300;
   width: 100%;
   text-align: left;
-  margin-bottom: 5rem;
 }
 @media (max-width: 991px) {
   .aesthetic-unit .content-wrapper .text-inner p {
@@ -15129,55 +15123,6 @@ input[type=time]::-webkit-calendar-picker-indicator {
   -webkit-transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
   transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
 }
-.anim .head-wrap + .row > div {
-  -webkit-transform: translateY(50px);
-          transform: translateY(50px);
-  -webkit-transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
-  transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
-  -webkit-transition-delay: 0.2s;
-          transition-delay: 0.2s;
-}
-.anim .head-wrap + .row > div:nth-child(2) {
-  -webkit-transition-delay: 0.22s;
-          transition-delay: 0.22s;
-}
-.anim .head-wrap + .row > div:nth-child(3) {
-  -webkit-transition-delay: 0.24s;
-          transition-delay: 0.24s;
-}
-.anim .head-wrap + .row > div:nth-child(4) {
-  -webkit-transition-delay: 0.26s;
-          transition-delay: 0.26s;
-}
-.anim .head-wrap + .row > div:nth-child(5) {
-  -webkit-transition-delay: 0.28s;
-          transition-delay: 0.28s;
-}
-.anim .accordion-item {
-  opacity: 0;
-  -webkit-transform: translateY(40px);
-          transform: translateY(40px);
-  -webkit-transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
-  transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
-  -webkit-transition-delay: 0.1s;
-          transition-delay: 0.1s;
-}
-.anim .accordion-item:nth-child(2) {
-  -webkit-transition-delay: 0.2s;
-          transition-delay: 0.2s;
-}
-.anim .accordion-item:nth-child(3) {
-  -webkit-transition-delay: 0.3s;
-          transition-delay: 0.3s;
-}
-.anim .accordion-item:nth-child(4) {
-  -webkit-transition-delay: 0.4s;
-          transition-delay: 0.4s;
-}
-.anim .accordion-item:nth-child(5) {
-  -webkit-transition-delay: 0.5s;
-          transition-delay: 0.5s;
-}
 .anim .shape-one {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
@@ -15218,13 +15163,6 @@ input[type=time]::-webkit-calendar-picker-indicator {
   -webkit-transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
   transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
 }
-.anim .testimonial-wrap .content-wrap {
-  opacity: 0;
-  -webkit-transform: translateY(40px);
-          transform: translateY(40px);
-  -webkit-transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
-  transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
-}
 .anim.sc-antiaging-sec .img {
   overflow: hidden;
 }
@@ -15243,14 +15181,6 @@ input[type=time]::-webkit-calendar-picker-indicator {
 .anim.visible .banner-image {
   opacity: 1;
 }
-.anim.visible .text-inner h4, .anim.visible .text-inner .h4,
-.anim.visible .text-inner h1,
-.anim.visible .text-inner .h1,
-.anim.visible .text-inner p {
-  opacity: 1;
-  -webkit-transform: translateY(0px);
-          transform: translateY(0px);
-}
 .anim.visible .image-text-wrapper h4, .anim.visible .image-text-wrapper .h4,
 .anim.visible .image-text-wrapper h3,
 .anim.visible .image-text-wrapper .h3 {
@@ -15264,21 +15194,6 @@ input[type=time]::-webkit-calendar-picker-indicator {
 .anim.visible .image-main-container img {
   -webkit-transform: scale(1);
           transform: scale(1);
-}
-.anim.visible .head-wrap h2, .anim.visible .head-wrap .h2,
-.anim.visible .head-wrap p {
-  opacity: 1;
-  -webkit-transform: translateY(0px);
-          transform: translateY(0px);
-}
-.anim.visible .head-wrap + .row > div {
-  -webkit-transform: translateY(0px);
-          transform: translateY(0px);
-}
-.anim.visible .accordion-item {
-  opacity: 1;
-  -webkit-transform: translateY(0px);
-          transform: translateY(0px);
 }
 .anim.visible .shape-one {
   -webkit-transform: scale(1);
@@ -15300,11 +15215,6 @@ input[type=time]::-webkit-calendar-picker-indicator {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
-.anim.visible .testimonial-wrap .content-wrap {
-  opacity: 1;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-}
 .anim.visible.sc-antiaging-sec .img {
   overflow: hidden;
 }
@@ -15320,5 +15230,16 @@ input[type=time]::-webkit-calendar-picker-indicator {
   to {
     -webkit-transform: rotate(360deg);
   }
+}
+.rotate-40 {
+  -webkit-animation: rotating 40s linear infinite;
+}
+
+.rotate-30 {
+  -webkit-animation: rotating 30s reverse linear infinite;
+}
+
+.rotate-round {
+  -webkit-animation: rotating 30s reverse linear infinite;
 }
 /*# sourceMappingURL=main.min.css.map */

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/main.min.css">
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/glightbox.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">   
     <title>The Skim Chemistry</title>
 </head>
