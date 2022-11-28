@@ -25,6 +25,8 @@
 }
 
 .client-card {
+    width: 100%;
+    text-align: left;
     @include max(576) {
         margin-bottom: 25px;
     }
@@ -146,6 +148,26 @@
             }
             .close:after {
                 transform: rotate(-45deg);
+            }
+        }
+    }
+}
+
+.happy-clients {
+.swiper-slide{
+        background: transparent;
+    }
+    .swiper-pagination{
+        position: static;
+        padding-top: 40px;
+        @include max(575.98){
+            padding-top: 15px;
+        }
+        .swiper-pagination-bullet{
+            background-color: $white;
+            opacity: 1;
+            &-active{
+                background-color: $secondary;
             }
         }
     }

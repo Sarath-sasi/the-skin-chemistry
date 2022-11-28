@@ -13765,6 +13765,10 @@ input[type=time]::-webkit-calendar-picker-indicator {
   font-weight: 300;
 }
 
+.client-card {
+  width: 100%;
+  text-align: left;
+}
 @media (max-width: 576px) {
   .client-card {
     margin-bottom: 25px;
@@ -13910,6 +13914,26 @@ input[type=time]::-webkit-calendar-picker-indicator {
 .video-popup .modal-content .btn-close .close:after {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
+}
+
+.happy-clients .swiper-slide {
+  background: transparent;
+}
+.happy-clients .swiper-pagination {
+  position: static;
+  padding-top: 40px;
+}
+@media (max-width: 575.98px) {
+  .happy-clients .swiper-pagination {
+    padding-top: 15px;
+  }
+}
+.happy-clients .swiper-pagination .swiper-pagination-bullet {
+  background-color: #fff;
+  opacity: 1;
+}
+.happy-clients .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #D9B746;
 }
 
 .swiper {
@@ -15262,4 +15286,3 @@ input[type=time]::-webkit-calendar-picker-indicator {
 .rotate-round {
   -webkit-animation: rotating 30s reverse linear infinite;
 }
-/*# sourceMappingURL=main.min.css.map */

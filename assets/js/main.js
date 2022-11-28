@@ -83,12 +83,31 @@ window.addEventListener("load", () => {
 
 
 
+var happyClientSwiper = new Swiper(".happy-clients", {
+    slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints:{
+            576:{
+                slidesPerView: 2,
+            },
+            1200:{
+                slidesPerView: 3,
+            },
+        },
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+});
 
 
 
 
-
-var swiper = new Swiper(".homeBanner", {
+var homeBanner = new Swiper(".homeBanner", {
     speed: 500,
     effect: 'fade',
     loop: true,
@@ -194,3 +213,4 @@ document.addEventListener("DOMContentLoaded", () => {
    
    });
    
+
