@@ -1,6 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="485" height="485" viewBox="0 0 485 485">
-  <g id="shape-ellipse-secondary" fill="rgba(22,109,61,0)" stroke="#ebb94e" stroke-linejoin="round" stroke-width="40" opacity="0.102">
-    <circle cx="242.5" cy="242.5" r="242.5" stroke="none"/>
-    <circle cx="242.5" cy="242.5" r="222.5" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="485" viewBox="0 0 485 485">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="shape-ellipse-secondary" cx="242.5" cy="242.5" r="242.5" transform="translate(1864 3547)" fill="rgba(22,109,61,0)" stroke="#ebb94e" stroke-linejoin="round" stroke-width="40" opacity="0.102"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.536" y2="0.579" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ebb94e"/>
+      <stop offset="0.882" stop-color="#ebb94e" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ebb94e" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_10" data-name="Group 10" transform="translate(-1864 -3547)">
+    <g id="Mask_Group_2" data-name="Mask Group 2" clip-path="url(#clip-path)">
+      <g id="shape-ellipse-secondary-2" data-name="shape-ellipse-secondary" transform="translate(1864 3547)" fill="rgba(22,109,61,0)" stroke="#ebb94e" stroke-linejoin="round" stroke-width="40" opacity="0.102">
+        <circle cx="242.5" cy="242.5" r="242.5" stroke="none"/>
+        <circle cx="242.5" cy="242.5" r="222.5" fill="none"/>
+      </g>
+      <g id="Group_9" data-name="Group 9" transform="translate(1837.247 3578.239) rotate(-7)">
+        <path id="Path_22" data-name="Path 22" d="M241.5,485A242.5,242.5,0,0,1,70.027,71.027,242.5,242.5,0,0,1,412.974,413.973,240.913,240.913,0,0,1,241.5,485Zm0-445C129.841,40,39,130.841,39,242.5S129.841,445,241.5,445,444,354.16,444,242.5,353.159,40,241.5,40Z" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
   </g>
 </svg>

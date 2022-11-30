@@ -93,6 +93,7 @@
     .shape-one{
         transform: scale(.9);
         transition: 2s cubic-bezier(0.38, 0.61, 0, 1.02);
+        overflow: hidden;
     }
     .shape-six{
         opacity: 0;
@@ -228,13 +229,41 @@
     }
 }
 
+
+@-webkit-keyframes random {
+    10% {
+        -webkit-transform: translate(0%, 0%);
+    }
+    30% {
+        -webkit-transform: translate(50%, 60%);
+    }
+    70% {
+        -webkit-transform: translate(30%, 20%);
+    }
+    80% {
+        -webkit-transform: translate(12%, 80%);
+    }
+    80% {
+        -webkit-transform: translate(0%, 0%);
+    }
+}
+
 .rotate-40{
     -webkit-animation: rotating 40s linear infinite;
 }
 .rotate-30{
     -webkit-animation: rotating 30s reverse linear infinite;
 }
-
+.rotate-10{
+    -webkit-animation: rotating 7s linear infinite;
+}
 .rotate-round{
     -webkit-animation: rotating 30s reverse linear infinite;
+}
+
+.random-01{
+    -webkit-animation: random 7s infinite ;
+}
+.random-02{
+    -webkit-animation: random 7s infinite reverse;
 }

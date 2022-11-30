@@ -18,7 +18,7 @@
 
 
                             <div class="shape shape-one">
-                                <img src="./assets/images/shape-circle-lg.svg" class="w-100" alt="">
+                                <img class="rotate-10" src="./assets/images/shape-circle-lg.svg" class="w-100" alt="">
                             </div>
                             <div class="shape shape-two ">
                                 <img class="rotate-40" src="./assets/images/shape-rect-stripe.png" class="w-100" alt="">
@@ -27,13 +27,13 @@
                                 <img class="rotate-30" src="./assets/images/shape-rect-stripe.png" class="w-100" alt="">
                             </div>
                             <div class="shape shape-four">
-                                <img src="./assets/images/shape-circle-secondary.svg" class="w-100" alt="">
+                                <img src="./assets/images/shape-circle-secondary.svg" class="w-100 random-01" alt="">
                             </div>
                             <div class="shape shape-five">
-                                <img src="./assets/images/shape-circle-secondary.svg" class="w-100" alt="">
+                                <img src="./assets/images/shape-circle-secondary.svg" class="w-100 random-01" alt="">
                             </div>
                             <div class="shape shape-six">
-                                <img src="./assets/images/shape-circle-light.svg" class="w-100" alt="">
+                                <img src="./assets/images/shape-circle-light.svg" class="w-100 random-02" alt="">
                             </div>
                         </div>
                     </div>
@@ -119,7 +119,7 @@
 
 
                             <div class="shape shape-one">
-                                <img src="./assets/images/shape-circle-lg.svg" class="w-100" alt="">
+                                <img class="rotate-10" src="./assets/images/shape-circle-lg.svg" class="w-100" alt="">
                             </div>
                             <div class="shape shape-two">
                                 <img  class="rotate-40" src="./assets/images/shape-rect-stripe.png" class="w-100" alt="">
@@ -128,13 +128,13 @@
                                 <img class="rotate-30" src="./assets/images/shape-rect-stripe.png" class="w-100" alt="">
                             </div>
                             <div class="shape shape-four">
-                                <img src="./assets/images/shape-circle-secondary.svg" class="w-100" alt="">
+                                <img src="./assets/images/shape-circle-secondary.svg" class="w-100 random-01" alt="">
                             </div>
                             <div class="shape shape-five">
-                                <img src="./assets/images/shape-circle-secondary.svg" class="w-100" alt="">
+                                <img src="./assets/images/shape-circle-secondary.svg" class="w-100 random-01" alt="">
                             </div>
                             <div class="shape shape-six">
-                                <img src="./assets/images/shape-circle-light.svg" class="w-100" alt="">
+                                <img src="./assets/images/shape-circle-light.svg" class="w-100 random-02" alt="">
                             </div>
                         </div>
                     </div>

@@ -1,6 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="499.5" height="499.5" viewBox="0 0 499.5 499.5">
-  <g id="shape-circle-lg" fill="rgba(255,255,255,0)" stroke="#fff" stroke-linejoin="round" stroke-width="50" opacity="0.102">
-    <circle cx="249.75" cy="249.75" r="249.75" stroke="none"/>
-    <circle cx="249.75" cy="249.75" r="224.75" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="499.5" height="499.5" viewBox="0 0 499.5 499.5">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="0.607" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="shape-circle-lg" transform="translate(987 -871.75)">
+    <g id="shape-circle-lg-2" data-name="shape-circle-lg" transform="translate(-987 871.75)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-linejoin="round" stroke-width="50" opacity="0.102">
+      <circle cx="249.75" cy="249.75" r="249.75" stroke="none"/>
+      <circle cx="249.75" cy="249.75" r="224.75" fill="none"/>
+    </g>
+    <g id="shape-circle-lg-3" data-name="shape-circle-lg" opacity="0.321">
+      <circle id="shape-circle-lg-4" data-name="shape-circle-lg" cx="249.75" cy="249.75" r="249.75" transform="translate(-987 871.75)" fill="rgba(255,255,255,0)"/>
+      <path id="shape-circle-lg_-_Outline" data-name="shape-circle-lg - Outline" d="M249.75,50C139.607,50,50,139.607,50,249.75S139.607,449.5,249.75,449.5,449.5,359.893,449.5,249.75,359.893,50,249.75,50m0-50C387.683,0,499.5,111.817,499.5,249.75S387.683,499.5,249.75,499.5,0,387.683,0,249.75,111.817,0,249.75,0Z" transform="translate(-987 871.75)" fill="url(#linear-gradient)"/>
+    </g>
   </g>
 </svg>

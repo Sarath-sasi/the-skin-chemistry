@@ -7,22 +7,25 @@
     overflow: hidden;
     &::after {
         content: '';
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='360' height='258' viewBox='0 0 360 258'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect id='Rectangle_7' data-name='Rectangle 7' width='360' height='258' transform='translate(0 868)' fill='%23fff' stroke='%23707070' stroke-width='1'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg id='Mask_Group_1' data-name='Mask Group 1' transform='translate(0 -868)' clip-path='url(%23clip-path)'%3E%3Cg id='Ellipse_11' data-name='Ellipse 11' transform='translate(-125 641)' fill='rgba(22,109,61,0)'%3E%3Cpath d='M 242.5 465 C 119.8130798339844 465 20 365.1869201660156 20 242.5 C 20 119.8130798339844 119.8130798339844 20 242.5 20 C 365.1869201660156 20 465 119.8130798339844 465 242.5 C 465 365.1869201660156 365.1869201660156 465 242.5 465 Z' stroke='none'/%3E%3Cpath d='M 242.5 40 C 130.8410949707031 40 40 130.8410949707031 40 242.5 C 40 354.1589050292969 130.8410949707031 445 242.5 445 C 354.1589050292969 445 445 354.1589050292969 445 242.5 C 445 130.8410949707031 354.1589050292969 40 242.5 40 M 242.5 0 C 376.4290161132812 0 485 108.5708923339844 485 242.5 C 485 376.4290161132812 376.4290161132812 485 242.5 485 C 108.5708923339844 485 0 376.4290161132812 0 242.5 C 0 108.5708923339844 108.5708923339844 0 242.5 0 Z' stroke='none' fill='%23fbf8f1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
-        width: 360px;
-        height: 258px;
+        background-image: url("../images/shape-ellipse-secondary.svg");
+        width: 500px;
+        height: 500px;
         background-position: center;
         background-color: transparent;
         position: absolute;
-        left: 0;
-        top: 0;
-        z-index: -2;
-        opacity: .1;
-        animation: scaling 1.2s infinite;
-        transform-origin: 45% top;
+        left: calc(485px / -2);
+        top: calc(485px / -2);
+        z-index: -3;
+        opacity: .8;
+        transform-origin: center;
+        animation: scaling 1.2s linear infinite;
+        background-size: contain;
+        background-repeat: no-repeat;
+     
     }
     // &::before {
     //     content: '';
-    //     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='360' height='258' viewBox='0 0 360 258'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect id='Rectangle_7' data-name='Rectangle 7' width='360' height='258' transform='translate(0 868)' fill='%23fff' stroke='%23707070' stroke-width='1'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg id='Mask_Group_1' data-name='Mask Group 1' transform='translate(0 -868)' clip-path='url(%23clip-path)'%3E%3Cg id='Ellipse_11' data-name='Ellipse 11' transform='translate(-125 641)' fill='rgba(22,109,61,0)'%3E%3Cpath d='M 242.5 465 C 119.8130798339844 465 20 365.1869201660156 20 242.5 C 20 119.8130798339844 119.8130798339844 20 242.5 20 C 365.1869201660156 20 465 119.8130798339844 465 242.5 C 465 365.1869201660156 365.1869201660156 465 242.5 465 Z' stroke='none'/%3E%3Cpath d='M 242.5 40 C 130.8410949707031 40 40 130.8410949707031 40 242.5 C 40 354.1589050292969 130.8410949707031 445 242.5 445 C 354.1589050292969 445 445 354.1589050292969 445 242.5 C 445 130.8410949707031 354.1589050292969 40 242.5 40 M 242.5 0 C 376.4290161132812 0 485 108.5708923339844 485 242.5 C 485 376.4290161132812 376.4290161132812 485 242.5 485 C 108.5708923339844 485 0 376.4290161132812 0 242.5 C 0 108.5708923339844 108.5708923339844 0 242.5 0 Z' stroke='none' fill='%23fbf8f1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+    //     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='360' height='258' viewBox='0 0 360 258'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect id='Rectangle_7' data-name='Rectangle 7' width='360' height='258' transform='translate(0 868)' fill='%23fff' stroke='%23707070' stroke-width='1'/%3E%3C/clipPath%3E%3CclipPath id='clip-path-2'%3E%3Crect id='Rectangle_5' data-name='Rectangle 5' width='234' height='253' transform='translate(2115 2945)' fill='%23fff' stroke='%23707070' stroke-width='1'/%3E%3C/clipPath%3E%3CclipPath id='clip-path-3'%3E%3Crect id='Rectangle_7-2' data-name='Rectangle 7' width='360' height='258' transform='translate(0 868)' fill='%23fff' stroke='%23f1b95b' stroke-width='1'/%3E%3C/clipPath%3E%3ClinearGradient id='linear-gradient' x1='0.859' y1='0.643' x2='0.5' y2='1' gradientUnits='objectBoundingBox'%3E%3Cstop offset='0' stop-color='%23f1b95b' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23f1b95b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg id='Group_8' data-name='Group 8' transform='translate(-1989 -2940)'%3E%3Cg id='Mask_Group_1' data-name='Mask Group 1' transform='translate(1989 2072)' clip-path='url(%23clip-path)'%3E%3Cg id='Ellipse_11' data-name='Ellipse 11' transform='translate(-125 641)'%3E%3Cpath id='Path_18' data-name='Path 18' d='M242.5,465C119.813,465,20,365.187,20,242.5S119.813,20,242.5,20,465,119.813,465,242.5,365.187,465,242.5,465Z' fill='rgba(22,109,61,0)'/%3E%3Cpath id='Path_19' data-name='Path 19' d='M242.5,40C130.841,40,40,130.841,40,242.5S130.841,445,242.5,445,445,354.159,445,242.5,354.159,40,242.5,40m0-40C376.429,0,485,108.571,485,242.5S376.429,485,242.5,485,0,376.429,0,242.5,108.571,0,242.5,0Z' fill='%23fbf8f1'/%3E%3C/g%3E%3C/g%3E%3Cg id='Mask_Group_1-2' data-name='Mask Group 1' clip-path='url(%23clip-path-2)'%3E%3Cg id='Mask_Group_1-3' data-name='Mask Group 1' transform='translate(1989 2072)' clip-path='url(%23clip-path-3)'%3E%3Cg id='Ellipse_11-2' data-name='Ellipse 11' transform='translate(-125 641)'%3E%3Cpath id='Path_20' data-name='Path 20' d='M242.5,465C119.813,465,20,365.187,20,242.5S119.813,20,242.5,20,465,119.813,465,242.5,365.187,465,242.5,465Z' fill='rgba(22,109,61,0)'/%3E%3Cpath id='Path_21' data-name='Path 21' d='M242.5,40C130.841,40,40,130.841,40,242.5S130.841,445,242.5,445,445,354.159,445,242.5,354.159,40,242.5,40m0-40C376.429,0,485,108.571,485,242.5S376.429,485,242.5,485,0,376.429,0,242.5,108.571,0,242.5,0Z' fill='url(%23linear-gradient)'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
     //     width: 360px;
     //     height: 258px;
     //     background-position: center;
@@ -30,8 +33,11 @@
     //     position: absolute;
     //     left: 0;
     //     top: 0;
-    //     z-index: -1;
-    //     opacity: 1;
+    //     z-index: -2;
+    //     opacity: .1;
+    //     transform-origin: left top;
+    //     animation: scaling 1.2s linear infinite;
+     
     // }
     .skin-chem-inner {
         width: 100%;
@@ -321,11 +327,9 @@
 
 @-webkit-keyframes scaling {
     from {
-        transform: scale(1);
-        opacity: 1;
+        -webkit-transform: rotate(0deg);
     }
     to {
-        transform: scale(1.2);
-        opacity: 0;
+        -webkit-transform: rotate(360deg);
     }
 }
