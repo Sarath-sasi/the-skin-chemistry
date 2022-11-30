@@ -168,7 +168,7 @@
         <div class="container">
 
             <div class="head-wrap text-center">
-                <h2 class="head text-success"  data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="50">Meet our Doctor</h2>
+                <h2 class="head text-primary"  data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="50">Meet our Doctor</h2>
                 <p class="p-main"  data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="150">There are many variations of passages of Lorem Ipsum available, but the </p>
             </div>
 
@@ -187,7 +187,7 @@
                             </p>
 
                             <div class="author">
-                                <h5 class="text-success" data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="150">Doctor Name</h5>
+                                <h5 class="text-primary" data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="150">Doctor Name</h5>
                                 <p  data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="200">There are many variations </p>
                             </div>
                         </div>

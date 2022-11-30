@@ -13,6 +13,9 @@
 </section>
 
 <section class="gallery-wrapper-main gallery-detail-sec mb-0">
+<div class="shape-main">
+            <img src="./assets/images/shape-ellipse-secondary.svg" class="w-100" alt="">
+        </div>
     <div class="container">
         <div class="gallery-inner">
             <div class="gallery-item-wrapper">

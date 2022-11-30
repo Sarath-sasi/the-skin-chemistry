@@ -13,12 +13,15 @@
 </section>
 
 <section class="gallery-wrapper-main gallery-main-sec">
+<div class="shape-main">
+            <img src="./assets/images/shape-ellipse-secondary.svg" class="w-100" alt="">
+        </div>
     <div class="container">
         <div class="gallery-inner">
             <div class="gallery-item-wrapper">
                 <div class="row">
                     <div class="col-12 col-lg-6">
-                        <a href="./assets/images/gallery/image-l.jpg" class="gallery-wrapper image-l glightbox">
+                        <a  class="gallery-wrapper image-l ">
                             <div class="gallery-image">
                                 <div class="gallery-container">
                                     <img src="./assets/images/gallery/image-l.jpg" alt="">
@@ -27,7 +30,7 @@
                         </a>
                     </div>
                     <div class="col-6 col-lg-3">
-                        <a href="./assets/images/gallery/2.jpg" class="gallery-wrapper image-s glightbox">
+                        <a class="gallery-wrapper image-s ">
                             <div class="gallery-image">
                                 <div class="gallery-container">
                                     <img src="./assets/images/gallery/2.jpg" alt="">
@@ -36,7 +39,7 @@
                         </a>
                     </div>
                     <div class="col-6 col-lg-3">
-                        <a href="./assets/images/gallery/1.jpg" class="gallery-wrapper image-s glightbox">
+                        <a  class="gallery-wrapper image-s ">
                             <div class="gallery-image">
                                 <div class="gallery-container">
                                     <img src="./assets/images/gallery/3.jpg" alt="">
@@ -45,7 +48,7 @@
                         </a>
                     </div>
                     <div class="col-6 col-lg-3">
-                        <a href="./assets/images/gallery/image-l.jpg" class="gallery-wrapper image-s glightbox">
+                        <a  class="gallery-wrapper image-s ">
                             <div class="gallery-image">
                                 <div class="gallery-container">
                                     <img src="./assets/images/gallery/image-l.jpg" alt="">
@@ -54,7 +57,7 @@
                         </a>
                     </div>
                     <div class="col-6 col-lg-3">
-                        <a href="./assets/images/gallery/image-l.jpg" class="gallery-wrapper image-s glightbox">
+                        <a class="gallery-wrapper image-s ">
                             <div class="gallery-image">
                                 <div class="gallery-container">
                                     <img src="./assets/images/gallery/image-l.jpg" alt="">
@@ -63,7 +66,7 @@
                         </a>
                     </div>
                     <div class="col-6 col-lg-3">
-                        <a href="./assets/images/gallery/image-l.jpg" class="gallery-wrapper image-s glightbox">
+                        <a  class="gallery-wrapper image-s ">
                             <div class="gallery-image">
                                 <div class="gallery-container">
                                     <img src="./assets/images/gallery/image-l.jpg" alt="">
@@ -72,7 +75,7 @@
                         </a>
                     </div>
                     <div class="col-6 col-lg-3">
-                        <a href="./assets/images/gallery/image-l.jpg" class="gallery-wrapper image-s glightbox">
+                        <a  class="gallery-wrapper image-s ">
                             <div class="gallery-image">
                                 <div class="gallery-container">
                                     <img src="./assets/images/gallery/image-l.jpg" alt="">
@@ -80,7 +83,7 @@
                             </div>
                         </a>
                     </div><div class="col-12 col-lg-6">
-                        <a href="./assets/images/gallery/image-l.jpg" class="gallery-wrapper image-l glightbox">
+                        <a  class="gallery-wrapper image-l ">
                             <div class="gallery-image">
                                 <div class="gallery-container">
                                     <img src="./assets/images/gallery/image-l.jpg" alt="">
@@ -89,7 +92,7 @@
                         </a>
                     </div>
                     <div class="col-6 col-lg-3">
-                        <a href="./assets/images/gallery/image-l.jpg" class="gallery-wrapper image-s glightbox">
+                        <a  class="gallery-wrapper image-s ">
                             <div class="gallery-image">
                                 <div class="gallery-container">
                                     <img src="./assets/images/gallery/image-l.jpg" alt="">
@@ -98,7 +101,7 @@
                         </a>
                     </div>
                     <div class="col-6 col-lg-3">
-                        <a href="./assets/images/gallery/image-l.jpg" class="gallery-wrapper image-s glightbox">
+                        <a  class="gallery-wrapper image-s ">
                             <div class="gallery-image">
                                 <div class="gallery-container">
                                     <img src="./assets/images/gallery/image-l.jpg" alt="">
@@ -107,7 +110,7 @@
                         </a>
                     </div>
                     <div class="col-6 col-lg-3">
-                        <a href="./assets/images/gallery/image-l.jpg" class="gallery-wrapper image-s glightbox">
+                        <a  class="gallery-wrapper image-s ">
                             <div class="gallery-image">
                                 <div class="gallery-container">
                                     <img src="./assets/images/gallery/image-l.jpg" alt="">
@@ -116,7 +119,7 @@
                         </a>
                     </div>
                     <div class="col-6 col-lg-3">
-                        <a href="./assets/images/gallery/image-l.jpg" class="gallery-wrapper image-s glightbox">
+                        <a  class="gallery-wrapper image-s ">
                             <div class="gallery-image">
                                 <div class="gallery-container">
                                     <img src="./assets/images/gallery/image-l.jpg" alt="">
@@ -125,7 +128,7 @@
                         </a>
                     </div>
                     <div class="col-6 col-lg-3">
-                        <a href="./assets/images/gallery/image-l.jpg" class="gallery-wrapper image-s glightbox">
+                        <a  class="gallery-wrapper image-s ">
                             <div class="gallery-image">
                                 <div class="gallery-container">
                                     <img src="./assets/images/gallery/image-l.jpg" alt="">
@@ -134,7 +137,7 @@
                         </a>
                     </div>
                     <div class="col-6 col-lg-3">
-                        <a href="./assets/images/gallery/image-l.jpg" class="gallery-wrapper image-s glightbox">
+                        <a  class="gallery-wrapper image-s ">
                             <div class="gallery-image">
                                 <div class="gallery-container">
                                     <img src="./assets/images/gallery/image-l.jpg" alt="">

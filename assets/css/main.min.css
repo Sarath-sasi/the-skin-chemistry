@@ -12166,7 +12166,7 @@ body.show-menu .mob-btn span + span + span {
 }
 .blog-wrap .head-wrap {
   max-width: 900px;
-  margin: 0 auto 50px;
+  margin: 0 auto 80px;
 }
 
 .blog-item {
@@ -14019,7 +14019,7 @@ input[type=time]::-webkit-calendar-picker-indicator {
 }
 @media (max-width: 576px) {
   .banner-container .banner-image .banner-image-container {
-    padding-bottom: 160%;
+    padding-bottom: 120%;
   }
 }
 .banner-container .banner-image .banner-image-container img {
@@ -14252,7 +14252,7 @@ input[type=time]::-webkit-calendar-picker-indicator {
   }
 }
 .skim-chem-wrapper .skin-chem-inner .text-inner h1, .skim-chem-wrapper .skin-chem-inner .text-inner .h1 {
-  color: #186D23;
+  color: #053C57;
   text-decoration: none;
   font-weight: 300;
   width: 100%;
@@ -14932,6 +14932,16 @@ input[type=time]::-webkit-calendar-picker-indicator {
 .gallery-main-sec {
   margin-bottom: 0;
   padding: 6.875rem 0;
+  position: relative;
+}
+.gallery-main-sec .shape-main {
+  width: 32.5%;
+  position: absolute;
+  left: -10%;
+  top: -20%;
+  -webkit-animation: scaling 1.2s infinite;
+          animation: scaling 1.2s infinite;
+  z-index: -1;
 }
 @media (max-width: 576px) {
   .gallery-main-sec {
@@ -14940,11 +14950,38 @@ input[type=time]::-webkit-calendar-picker-indicator {
 }
 
 .gallery-detail-sec {
+  position: relative;
   padding: 50px 0;
+}
+.gallery-detail-sec .shape-main {
+  width: 32.5%;
+  position: absolute;
+  left: -10%;
+  top: -20%;
+  -webkit-animation: scaling 1.2s infinite;
+          animation: scaling 1.2s infinite;
+  z-index: -1;
 }
 .gallery-detail-sec .gallery-wrapper .image-rounded .gallery-image {
   overflow: hidden;
   border-radius: 10px;
+}
+
+.gallery-container {
+  overflow: hidden;
+}
+.gallery-container img {
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+.gallery-container:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.gallery-detail-sec .gallery-wrapper.glightbox .gallery-image {
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 .footer {
