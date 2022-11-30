@@ -11078,12 +11078,12 @@ p {
     content: "";
     height: 0;
     width: 0;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
-    border-top: 6px solid #053C57;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #053C57;
     position: absolute;
-    right: 12px;
-    top: 14px;
+    right: 8px;
+    top: 15px;
     z-index: 10;
   }
 }
@@ -11178,6 +11178,7 @@ p {
     display: none;
     list-style: none;
     border: 1px solid rgba(199, 199, 199, 0.2705882353);
+    border-radius: 10px;
   }
   .main-nav > ul > li ul li {
     padding: 12px;
@@ -11199,6 +11200,9 @@ p {
 @media (min-width: 1200px) {
   .main-nav > ul > li ul li a {
     color: #212529;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.4;
   }
 }
 @media (min-width: 1200px) {
@@ -11214,7 +11218,6 @@ p {
 }
 @media (min-width: 1200px) {
   .main-nav > ul > li ul li.submenu::after {
-    content: "\e807";
     font-family: "deafult-icons";
     position: absolute;
     right: 12px;

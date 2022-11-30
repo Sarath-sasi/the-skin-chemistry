@@ -35,9 +35,25 @@
                             <li><a class="active" href="index.php">Home</a></li>
                             <li><a href="about-us.php">About Us</a></li>
                             <li><a href="">Treatments</a>
-                            <li><a href="news.php">News</a>
-                            <li><a href="blog.php">Blog</a>
-                            <li><a href="gallery.php">Gallery</a>
+                            <ul>
+                                <li><a href="">Services 1</a>
+                                    <ul>
+                                        <li><a href="">Services 1</a></li>
+                                        <li><a href="">Services 2</a></li>
+                                        <li><a href="">Services 3</a></li>
+                                        <li><a href="">Services 4</a></li>
+                                        <li><a href="">Services 5</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Services 2</a></li>
+                                <li><a href="">Services 3</a></li>
+                                <li><a href="">Services 4</a></li>
+                                <li><a href="">Services 5</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="news.php">News</a></li>
+                            <li><a href="blog.php">Blog</a></li>
+                            <li><a href="gallery.php">Gallery</a></li>
                             <li><a href="contact.php">Contact us</a>
                                 <!-- <ul>
                                 <li><a href="">Services 1</a>

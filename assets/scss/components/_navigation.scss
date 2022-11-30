@@ -26,12 +26,12 @@
                     content: "";
                     height: 0;
                     width: 0;
-                    border-left: 6px solid transparent;
-                    border-right: 6px solid transparent;
-                    border-top: 6px solid $primary;
+                    border-left: 4px solid transparent;
+                    border-right: 4px solid transparent;
+                    border-top: 5px solid #053C57;
                     position: absolute;
-                    right: 12px;
-                    top: 14px;
+                    right: 8px;
+                    top: 15px;
                     z-index: 10;
                 }
                 &:last-child {
@@ -99,6 +99,7 @@
                     display: none;
                     list-style: none;
                     border: 1px solid #c7c7c745;
+                    border-radius: 10px;
                     li {
                         padding: 12px;
                         position: relative;
@@ -109,6 +110,9 @@
                         }
                         a {
                             color: #212529;
+                            text-decoration: none;
+                            font-size: 16px;
+                            line-height: 1.4;
                         }
                         &:hover {
                             >ul {
@@ -123,7 +127,6 @@
                         }
                         &.submenu {
                             &::after {
-                                content: "\e807";
                                 font-family: $d-ico;
                                 position: absolute;
                                 right: 12px;
