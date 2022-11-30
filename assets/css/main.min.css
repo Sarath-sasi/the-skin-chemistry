@@ -14117,20 +14117,22 @@ input[type=time]::-webkit-calendar-picker-indicator {
 }
 .skim-chem-wrapper::after {
   content: "";
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='360' height='258' viewBox='0 0 360 258'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect id='Rectangle_7' data-name='Rectangle 7' width='360' height='258' transform='translate(0 868)' fill='%23fff' stroke='%23707070' stroke-width='1'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg id='Mask_Group_1' data-name='Mask Group 1' transform='translate(0 -868)' clip-path='url(%23clip-path)'%3E%3Cg id='Ellipse_11' data-name='Ellipse 11' transform='translate(-125 641)' fill='rgba(22,109,61,0)'%3E%3Cpath d='M 242.5 465 C 119.8130798339844 465 20 365.1869201660156 20 242.5 C 20 119.8130798339844 119.8130798339844 20 242.5 20 C 365.1869201660156 20 465 119.8130798339844 465 242.5 C 465 365.1869201660156 365.1869201660156 465 242.5 465 Z' stroke='none'/%3E%3Cpath d='M 242.5 40 C 130.8410949707031 40 40 130.8410949707031 40 242.5 C 40 354.1589050292969 130.8410949707031 445 242.5 445 C 354.1589050292969 445 445 354.1589050292969 445 242.5 C 445 130.8410949707031 354.1589050292969 40 242.5 40 M 242.5 0 C 376.4290161132812 0 485 108.5708923339844 485 242.5 C 485 376.4290161132812 376.4290161132812 485 242.5 485 C 108.5708923339844 485 0 376.4290161132812 0 242.5 C 0 108.5708923339844 108.5708923339844 0 242.5 0 Z' stroke='none' fill='%23fbf8f1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
-  width: 360px;
-  height: 258px;
+  background-image: url("../images/shape-ellipse-secondary.svg");
+  width: 500px;
+  height: 500px;
   background-position: center;
   background-color: transparent;
   position: absolute;
-  left: 0;
-  top: 0;
-  z-index: -2;
-  opacity: 0.1;
-  -webkit-animation: scaling 1.2s infinite;
-          animation: scaling 1.2s infinite;
-  -webkit-transform-origin: 45% top;
-          transform-origin: 45% top;
+  left: -242.5px;
+  top: -242.5px;
+  z-index: -3;
+  opacity: 0.8;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation: scaling 1.2s linear infinite;
+          animation: scaling 1.2s linear infinite;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .skim-chem-wrapper .skin-chem-inner {
   width: 100%;
@@ -14478,14 +14480,10 @@ input[type=time]::-webkit-calendar-picker-indicator {
 
 @-webkit-keyframes scaling {
   from {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 1;
+    -webkit-transform: rotate(0deg);
   }
   to {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-    opacity: 0;
+    -webkit-transform: rotate(360deg);
   }
 }
 .faq {
@@ -15251,6 +15249,23 @@ input[type=time]::-webkit-calendar-picker-indicator {
     -webkit-transform: rotate(360deg);
   }
 }
+@-webkit-keyframes random {
+  10% {
+    -webkit-transform: translate(0%, 0%);
+  }
+  30% {
+    -webkit-transform: translate(50%, 60%);
+  }
+  70% {
+    -webkit-transform: translate(30%, 20%);
+  }
+  80% {
+    -webkit-transform: translate(12%, 80%);
+  }
+  80% {
+    -webkit-transform: translate(0%, 0%);
+  }
+}
 .rotate-40 {
   -webkit-animation: rotating 40s linear infinite;
 }
@@ -15259,7 +15274,19 @@ input[type=time]::-webkit-calendar-picker-indicator {
   -webkit-animation: rotating 30s reverse linear infinite;
 }
 
+.rotate-10 {
+  -webkit-animation: rotating 7s linear infinite;
+}
+
 .rotate-round {
   -webkit-animation: rotating 30s reverse linear infinite;
+}
+
+.random-01 {
+  -webkit-animation: random 7s infinite;
+}
+
+.random-02 {
+  -webkit-animation: random 7s infinite reverse;
 }
 /*# sourceMappingURL=main.min.css.map */
